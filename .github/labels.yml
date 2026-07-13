@@ -1,0 +1,57 @@
+- name: bug
+  description: A confirmed defect or regression
+  color: "d73a4a"
+- name: documentation
+  description: Documentation structure, content, or editorial work
+  color: "0075ca"
+- name: good first issue
+  description: Approachable work for a new contributor
+  color: "7057ff"
+- name: help wanted
+  description: Additional community support is welcome
+  color: "008672"
+- name: performance
+  description: Performance engineering or optimization
+  color: "f9d0c4"
+- name: security
+  description: Security guidance or repository hardening
+  color: "b60205"
+- name: java
+  description: Enterprise Java topic
+  color: "b07219"
+- name: aem
+  description: Adobe Experience Manager topic
+  color: "fa0f00"
+- name: dispatcher
+  description: AEM Dispatcher topic
+  color: "5319e7"
+- name: workflow
+  description: AEM workflow or repository automation
+  color: "1d76db"
+- name: question
+  description: A focused request for clarification
+  color: "d876e3"
+- name: discussion
+  description: Topic requiring broader community input
+  color: "c5def5"
+- name: enhancement
+  description: Improvement to an existing capability
+  color: "a2eeef"
+- name: architecture
+  description: Architecture, system design, or ADR work
+  color: "0e8a16"
+- name: technical-debt
+  description: Maintainability work with no immediate reader feature
+  color: "fbca04"
+- name: blocked
+  description: Progress depends on another decision or change
+  color: "000000"
+- name: priority-high
+  description: Important work requiring prompt attention
+  color: "b60205"
+- name: priority-medium
+  description: Important work in the normal planning horizon
+  color: "fbca04"
+- name: priority-low
+  description: Useful work with no near-term urgency
+  color: "c2e0c6"

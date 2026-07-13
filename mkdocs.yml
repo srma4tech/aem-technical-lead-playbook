@@ -1,0 +1,145 @@
+site_name: AEM Technical Lead Playbook
+site_description: Open-source handbook for Adobe Experience Manager, enterprise Java, architecture, production engineering, and technical leadership.
+site_author: AEM Technical Lead Playbook contributors
+site_url: https://srma4tech.github.io/aem-technical-lead-playbook/
+repo_url: https://github.com/srma4tech/aem-technical-lead-playbook
+repo_name: srma4tech/aem-technical-lead-playbook
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 AEM Technical Lead Playbook contributors. Released under the MIT License.
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  keywords:
+    - Adobe Experience Manager
+    - AEM
+    - enterprise Java
+    - technical leadership
+    - system design
+    - software architecture
+  social_preview: assets/images/social-preview-placeholder.svg
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/srma4tech/aem-technical-lead-playbook
+      name: Project repository
+    - icon: fontawesome/solid/comments
+      link: https://github.com/srma4tech/aem-technical-lead-playbook/discussions
+      name: Community discussions
+
+nav:
+  - Home: index.md
+  - Start Here:
+      - Introduction: 00-introduction/README.md
+      - Engineering Principles:
+          - Overview: 00-engineering-principles/README.md
+          - Engineering Mindset: 00-engineering-principles/01-engineering-mindset.md
+          - Technical Lead Principles: 00-engineering-principles/02-technical-lead-principles.md
+          - Clean Code: 00-engineering-principles/03-clean-code.md
+          - Production Ownership: 00-engineering-principles/04-production-ownership.md
+          - Decision Making: 00-engineering-principles/05-decision-making.md
+          - Engineering Excellence: 00-engineering-principles/06-engineering-excellence.md
+          - Documentation Culture: 00-engineering-principles/07-documentation-culture.md
+          - Code Review Philosophy: 00-engineering-principles/08-code-review-philosophy.md
+          - Performance Thinking: 00-engineering-principles/09-performance-thinking.md
+          - Security First: 00-engineering-principles/10-security-first.md
+          - Debugging Mindset: 00-engineering-principles/11-debugging-mindset.md
+          - Learning Culture: 00-engineering-principles/12-learning-culture.md
+          - Mentorship: 00-engineering-principles/13-mentorship.md
+          - Career Growth: 00-engineering-principles/14-career-growth.md
+          - Engineering Values: 00-engineering-principles/15-engineering-values.md
+      - Learning Roadmap: 01-learning-roadmap/README.md
+  - AEM Engineering:
+      - AEM Core: 02-aem-core/README.md
+      - Dispatcher: 03-dispatcher/README.md
+      - Performance: 04-performance/README.md
+      - Security: 05-security/README.md
+      - AEM as a Cloud Service: 06-aemaacs/README.md
+  - Enterprise Engineering:
+      - Enterprise Java: 07-enterprise-java/README.md
+      - Design Patterns: 08-design-patterns/README.md
+      - System Design: 09-system-design/README.md
+  - Leadership and Operations:
+      - Technical Leadership: 10-technical-lead/README.md
+      - Production Support: 11-production-support/README.md
+      - Engineering Checklists: 12-checklists/README.md
+      - Interview Guide: 13-interview-guide/README.md
+      - Case Studies: 14-case-studies/README.md
+  - Architecture Decisions:
+      - ADR Index: architecture/README.md
+      - 0001 — Use MkDocs Material: architecture/0001-use-mkdocs.md
+      - 0002 — Documentation First: architecture/0002-documentation-first.md
+      - 0003 — Folder Structure: architecture/0003-folder-structure.md
+      - 0004 — Versioning Strategy: architecture/0004-versioning-strategy.md
+      - 0005 — Mermaid Standard: architecture/0005-mermaid-standard.md
+  - Contributor Quality:
+      - Documentation Review: checklists/documentation-review.md
+  - Reference: 15-reference/README.md
+  - Project:
+      - Governance: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/GOVERNANCE.md
+      - Releases: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md
+      - Contributing: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md
+
+strict: true

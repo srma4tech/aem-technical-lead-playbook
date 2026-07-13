@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Repository architecture placeholder</title>
+  <desc id="desc">Documentation, governance, reusable assets, and automated quality controls.</desc>
+  <rect width="1200" height="420" fill="#f5f7fa"/>
+  <g fill="#3f51b5">
+    <rect x="70" y="140" width="250" height="130" rx="18"/>
+    <rect x="475" y="140" width="250" height="130" rx="18"/>
+    <rect x="880" y="140" width="250" height="130" rx="18"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    <text x="195" y="215">Contributors</text>
+    <text x="600" y="195">Repository</text>
+    <text x="600" y="230">Foundation</text>
+    <text x="1005" y="195">Published</text>
+    <text x="1005" y="230">Handbook</text>
+  </g>
+  <g stroke="#ff6f00" stroke-width="12" fill="none">
+    <path d="M320 205 H475"/>
+    <path d="M725 205 H880"/>
+  </g>
+</svg>

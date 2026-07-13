@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en,en-GB",
+  "useGitignore": true,
+  "files": ["**/*.md", "**/*.yml", "**/*.yaml", "**/*.json"],
+  "ignorePaths": ["node_modules/**", "site/**", "package-lock.json"],
+  "words": [
+    "AEMaaCS",
+    "codeowners",
+    "fontawesome",
+    "inlinehilite",
+    "linenums",
+    "mkdocs",
+    "mentee",
+    "pymdownx",
+    "roadmap",
+    "runbook",
+    "runbooks",
+    "srma",
+    "superfences"
+  ]
+}

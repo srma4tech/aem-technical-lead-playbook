@@ -1,0 +1,6 @@
+max_retries = 3
+retry_wait_time = 2
+timeout = 20
+# Remove this bootstrap exclusion after the first successful Pages deployment.
+exclude = ['^https://srma4tech.github.io/aem-technical-lead-playbook/?$']
+exclude_path = ["site", "node_modules"]
