@@ -112,6 +112,13 @@ nav:
           - Engineering Values: 00-engineering-principles/15-engineering-values.md
       - Learning Roadmap: 01-learning-roadmap/README.md
   - AEM Engineering:
+      - Understanding AEM Internals:
+          - Overview: 20-understanding-aem-internals/README.md
+          - How AEM Works: 20-understanding-aem-internals/01-how-aem-works.md
+          - Request Lifecycle: 20-understanding-aem-internals/02-request-lifecycle.md
+          - Dispatcher Overview: 20-understanding-aem-internals/03-dispatcher-overview.md
+          - Apache Web Server: 20-understanding-aem-internals/04-apache-web-server.md
+          - Sling Engine: 20-understanding-aem-internals/05-sling-engine.md
       - AEM Core: 02-aem-core/README.md
       - Dispatcher: 03-dispatcher/README.md
       - Performance: 04-performance/README.md
