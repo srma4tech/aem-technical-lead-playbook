@@ -6,18 +6,18 @@ The project uses Semantic Versioning: `MAJOR.MINOR.PATCH`. Before v1.0, minor re
 
 ## Version Roadmap
 
-| Version | Milestone             | Intended outcome                                              |
-| ------- | --------------------- | ------------------------------------------------------------- |
-| v0.1    | Repository Foundation | Governance, platform, automation, templates, and placeholders |
-| v0.2    | AEM Core              | Reviewed AEM core learning foundation                         |
+| Version | Milestone                   | Intended outcome                                                            |
+| ------- | --------------------------- | --------------------------------------------------------------------------- |
+| v0.1    | Repository Foundation       | Governance, platform, automation, templates, and placeholders               |
+| v0.2    | AEM Core                    | Reviewed AEM core learning foundation                                       |
 | v0.3    | Understanding AEM Internals | Request lifecycle, Sling, Oak, HTL, caching, and production troubleshooting |
-| v0.4    | Dispatcher            | Reviewed Dispatcher handbook                                  |
-| v0.5    | Performance           | Performance engineering guidance                              |
-| v0.6    | Security              | Security engineering guidance                                 |
-| v0.7    | AEMaaCS               | AEM as a Cloud Service guidance                               |
-| v0.8    | Enterprise Java       | Enterprise Java guidance                                      |
-| v0.9    | Technical Leadership  | Technical-leadership handbook                                 |
-| v1.0    | Public Release        | Stable, reviewed public handbook                              |
+| v0.4    | Dispatcher                  | Reviewed Dispatcher handbook                                                |
+| v0.5    | Performance                 | Performance engineering guidance                                            |
+| v0.6    | Security                    | Security engineering guidance                                               |
+| v0.7    | AEMaaCS                     | AEM as a Cloud Service guidance                                             |
+| v0.8    | Enterprise Java             | Enterprise Java guidance                                                    |
+| v0.9    | Technical Leadership        | Technical-leadership handbook                                               |
+| v1.0    | Public Release              | Stable, reviewed public handbook                                            |
 
 ## Release Policy
 

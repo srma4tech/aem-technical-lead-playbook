@@ -1,6 +1,10 @@
 max_retries = 3
 retry_wait_time = 2
 timeout = 20
-# Remove this bootstrap exclusion after the first successful Pages deployment.
-exclude = ['^https://srma4tech.github.io/aem-technical-lead-playbook/?$']
+# ACM's canonical Code of Ethics page serves automated requests with HTTP 403.
+# Keep the reference in the handbook and exclude only the bot-protected URL.
+exclude = [
+  '^https://srma4tech.github.io/aem-technical-lead-playbook/?$',
+  '^https://www.acm.org/code-of-ethics$'
+]
 exclude_path = ["site", "node_modules"]

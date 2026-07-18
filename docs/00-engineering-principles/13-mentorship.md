@@ -74,9 +74,9 @@ The lead makes mentoring a team system rather than a private favor. They match g
 - [Learning Culture](12-learning-culture.md)
 - [Career Growth](14-career-growth.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/templates/architecture-decision-record.md)
-- [Architecture review checklist](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/checklists/architecture-review.md)
-- [Repository roadmap](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/ROADMAP.md)
+- [Architecture decision template](../../templates/architecture-decision-record.md)
+- [Architecture review checklist](../../checklists/architecture-review.md)
+- [Repository roadmap](../../ROADMAP.md)
 
 ## Future Reading
 

@@ -111,7 +111,7 @@ How would you design a safe request correlation strategy?
 
 ## References
 
-- [Sling Request Processing](https://sling.apache.org/documentation/the-sling-engine/request-processing.html)
+- [Sling Dispatching Requests](https://sling.apache.org/documentation/the-sling-engine/dispatching-requests.html)
 
 ## Cross References
 

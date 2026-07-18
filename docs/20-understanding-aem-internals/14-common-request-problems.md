@@ -101,7 +101,7 @@ How do you make troubleshooting safer at scale?
 
 ## References
 
-- [AEM Dispatcher Troubleshooting](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/troubleshooting)
+- [AEM Dispatcher Top Issues FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/troubleshooting/dispatcher-faq)
 
 ## Cross References
 

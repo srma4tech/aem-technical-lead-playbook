@@ -74,9 +74,9 @@ The lead treats the engineering system as a product. They identify constraints, 
 - [Code Review Philosophy](08-code-review-philosophy.md)
 - [Learning Culture](12-learning-culture.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/templates/architecture-decision-record.md)
-- [Architecture review checklist](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/checklists/architecture-review.md)
-- [Repository roadmap](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/ROADMAP.md)
+- [Architecture decision template](../../templates/architecture-decision-record.md)
+- [Architecture review checklist](../../checklists/architecture-review.md)
+- [Repository roadmap](../../ROADMAP.md)
 
 ## Future Reading
 
