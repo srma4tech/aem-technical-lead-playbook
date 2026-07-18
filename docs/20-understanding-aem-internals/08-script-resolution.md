@@ -98,7 +98,7 @@ When is inheritance preferable to composition?
 
 ## References
 
-- [Sling Script Resolution](https://sling.apache.org/documentation/the-sling-engine/script-resolution.html)
+- [Sling Scripting](https://sling.apache.org/documentation/bundles/scripting.html)
 
 ## Cross References
 

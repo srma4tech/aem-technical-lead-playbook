@@ -88,9 +88,9 @@ The lead protects the quality of the decision process without owning every decis
 - [Technical Lead Principles](02-technical-lead-principles.md)
 - [Documentation Culture](07-documentation-culture.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/templates/architecture-decision-record.md)
-- [Architecture review checklist](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/checklists/architecture-review.md)
-- [Repository roadmap](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/ROADMAP.md)
+- [Architecture decision template](../../templates/architecture-decision-record.md)
+- [Architecture review checklist](../../checklists/architecture-review.md)
+- [Repository roadmap](../../ROADMAP.md)
 
 ## Future Reading
 

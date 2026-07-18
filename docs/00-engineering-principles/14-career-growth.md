@@ -86,9 +86,9 @@ The lead makes expectations and opportunity visible. They give engineers scoped 
 - [Technical Lead Principles](02-technical-lead-principles.md)
 - [Engineering Values](15-engineering-values.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/templates/architecture-decision-record.md)
-- [Architecture review checklist](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/checklists/architecture-review.md)
-- [Repository roadmap](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/ROADMAP.md)
+- [Architecture decision template](../../templates/architecture-decision-record.md)
+- [Architecture review checklist](../../checklists/architecture-review.md)
+- [Repository roadmap](../../ROADMAP.md)
 
 ## Future Reading
 
