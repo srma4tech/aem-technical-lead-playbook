@@ -119,6 +119,11 @@ nav:
           - Dispatcher Overview: 20-understanding-aem-internals/03-dispatcher-overview.md
           - Apache Web Server: 20-understanding-aem-internals/04-apache-web-server.md
           - Sling Engine: 20-understanding-aem-internals/05-sling-engine.md
+          - Resource Resolution: 20-understanding-aem-internals/06-resource-resolution.md
+          - Servlet Resolution: 20-understanding-aem-internals/07-servlet-resolution.md
+          - Script Resolution: 20-understanding-aem-internals/08-script-resolution.md
+          - HTL Rendering: 20-understanding-aem-internals/09-htl-rendering.md
+          - JCR Content Repository: 20-understanding-aem-internals/10-jcr-content-repository.md
       - AEM Core: 02-aem-core/README.md
       - Dispatcher: 03-dispatcher/README.md
       - Performance: 04-performance/README.md

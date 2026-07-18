@@ -6,7 +6,7 @@ This part follows a request from an edge cache to a rendered response. It is an 
 
 1. Start with [how AEM works](01-how-aem-works.md) and the [request lifecycle](02-request-lifecycle.md).
 2. Learn the edge layers: [Dispatcher](03-dispatcher-overview.md) and [Apache](04-apache-web-server.md).
-3. Continue through the resolution, rendering, repository, and production chapters as they are released.
+3. Follow Sling through [resource](06-resource-resolution.md), [servlet](07-servlet-resolution.md), [script](08-script-resolution.md), [HTL](09-htl-rendering.md), and [JCR](10-jcr-content-repository.md).
 
 ## Operating Model
 
