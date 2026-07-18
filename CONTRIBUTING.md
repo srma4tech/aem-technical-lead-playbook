@@ -2,7 +2,7 @@
 
 ## Overview
 
-Contributions are welcome across repository architecture, editorial quality, templates, automation, and—after the foundation phase—technical content. New contributors should begin with [FIRST_CONTRIBUTION.md](FIRST_CONTRIBUTION.md).
+Contributions are welcome across repository architecture, editorial quality, templates, automation, and technical content. New contributors should begin with [FIRST_CONTRIBUTION.md](FIRST_CONTRIBUTION.md).
 
 ## Before You Start
 

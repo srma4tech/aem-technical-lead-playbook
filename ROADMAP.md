@@ -82,6 +82,7 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
+- [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
 - [ ] Introduction, learning roadmap, and AEM core content
 - [ ] Dispatcher, security, and performance foundations

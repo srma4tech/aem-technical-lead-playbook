@@ -10,7 +10,7 @@
 An open-source, documentation-first handbook for Adobe Experience Manager, enterprise Java, system design, production engineering, and technical leadership.
 
 > [!NOTE]
-> The repository is in its foundation phase. The platform, governance, navigation, reusable assets, and quality gates are ready; reviewed learning content will arrive incrementally.
+> This handbook is under active, incremental development. Its platform, governance, navigation, reusable assets, and quality gates are established, and reviewed learning content is released in focused parts.
 
 ## Project Vision
 
@@ -70,7 +70,7 @@ flowchart LR
 
 ## Learning Path
 
-The planned progression moves from orientation and AEM core through delivery infrastructure, performance, security, cloud operations, enterprise Java, system design, production support, and technical leadership.
+The progression starts with engineering judgment and [Understanding AEM Internals](docs/20-understanding-aem-internals/README.md), then continues through AEM core, delivery infrastructure, performance, security, cloud operations, enterprise Java, system design, production support, and technical leadership.
 
 See the [learning path](LEARNING_PATH.md) and the visual journeys in the [roadmap](ROADMAP.md).
 
@@ -103,7 +103,7 @@ See the [learning path](LEARNING_PATH.md) and the visual journeys in the [roadma
 
 ## Latest Release
 
-The current foundation milestone is **v0.1.0 — Repository Foundation**. See [RELEASES.md](RELEASES.md) for the release policy and version roadmap, and [CHANGELOG.md](CHANGELOG.md) for notable changes.
+The current package version is **v0.1.0 — Repository Foundation**. The next release scope includes the completed Understanding AEM Internals handbook. See [RELEASES.md](RELEASES.md) for the release policy and version roadmap, and [CHANGELOG.md](CHANGELOG.md) for notable changes.
 
 ## Contributing
 
