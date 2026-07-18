@@ -1,7 +1,7 @@
 # AEM Technical Lead Playbook
 
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-4051b5?logo=materialformkdocs)](https://srma4tech.github.io/aem-technical-lead-playbook/)
-[![Documentation build](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-docs.yml)
+[![Documentation build](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-pages.yml)
 [![Quality checks](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/srma4tech/aem-technical-lead-playbook/actions)
 [![Version](https://img.shields.io/badge/version-v0.3.0-blue)](RELEASES.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
