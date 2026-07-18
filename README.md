@@ -3,9 +3,8 @@
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-4051b5?logo=materialformkdocs)](https://srma4tech.github.io/aem-technical-lead-playbook/)
 [![Documentation build](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/deploy-docs.yml)
 [![Quality checks](https://github.com/srma4tech/aem-technical-lead-playbook/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/srma4tech/aem-technical-lead-playbook/actions)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](RELEASES.md)
+[![Version](https://img.shields.io/badge/version-v0.3.0-blue)](RELEASES.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Visitors](https://img.shields.io/badge/visitors-enable%20counter-lightgrey)](#repository-statistics)
 
 An open-source, documentation-first handbook for Adobe Experience Manager, enterprise Java, system design, production engineering, and technical leadership.
 
@@ -33,7 +32,7 @@ These principles are not substitutes for context. They provide a consistent way 
 
 ## Architecture Overview
 
-![Repository architecture placeholder](docs/assets/images/architecture-overview-placeholder.svg)
+![Repository architecture showing contributors, engineering controls, and the published handbook](docs/assets/images/architecture-overview.svg)
 
 ```mermaid
 flowchart LR
@@ -103,7 +102,7 @@ See the [learning path](LEARNING_PATH.md) and the visual journeys in the [roadma
 
 ## Latest Release
 
-The current package version is **v0.1.0 — Repository Foundation**. The next release scope includes the completed Understanding AEM Internals handbook. See [RELEASES.md](RELEASES.md) for the release policy and version roadmap, and [CHANGELOG.md](CHANGELOG.md) for notable changes.
+The current release is **v0.3.0 — Understanding AEM Internals**. See [RELEASES.md](RELEASES.md) for the release policy and version roadmap, and [CHANGELOG.md](CHANGELOG.md) for notable changes.
 
 ## Contributing
 
@@ -116,16 +115,6 @@ The roadmap progresses from repository foundation through AEM engineering, enter
 ## Community
 
 Community participation is governed by [GOVERNANCE.md](GOVERNANCE.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Use [Discussions](DISCUSSIONS.md) for open-ended ideas, issues for actionable work, and the private process in [SECURITY.md](SECURITY.md) for vulnerabilities.
-
-## Repository Statistics
-
-| Metric          | Placeholder                                    |
-| --------------- | ---------------------------------------------- |
-| Contributors    | Enable after the first public release          |
-| Stars           | Enable the dynamic counter after public launch |
-| Forks           | Enable the dynamic counter after public launch |
-| Published pages | Track through release automation               |
-| Latest release  | v0.1.0                                         |
 
 ## Local Preview
 

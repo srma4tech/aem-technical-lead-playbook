@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Playbook architecture</title>
+  <desc id="desc">Contributors and quality controls support the versioned handbook, templates, checklists, and architecture decisions.</desc>
+  <rect width="1200" height="420" fill="#f5f7fa"/>
+  <g fill="#263a8b"><rect x="54" y="142" width="248" height="126" rx="18"/><rect x="476" y="142" width="248" height="126" rx="18"/><rect x="898" y="142" width="248" height="126" rx="18"/></g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="27" text-anchor="middle"><text x="178" y="197">Contributors</text><text x="178" y="230">and reviewers</text><text x="600" y="197">Engineering</text><text x="600" y="230">controls</text><text x="1022" y="197">Published</text><text x="1022" y="230">handbook</text></g>
+  <g stroke="#ff7043" stroke-width="10" fill="none"><path d="M302 205 H476"/><path d="M724 205 H898"/></g>
+</svg>

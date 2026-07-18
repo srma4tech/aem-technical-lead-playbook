@@ -4,6 +4,16 @@ Notable changes are recorded here using Keep a Changelog conventions and Semanti
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-18
+
+### Added
+
+- Understanding AEM Internals handbook, covering request processing from Dispatcher through Sling, Oak, HTL, and production troubleshooting.
+
+### Changed
+
+- Release metadata, roadmap, README, and quality configuration for public launch readiness.
+
 ### Added
 
 - Enterprise repository foundation, documentation platform, governance, and quality automation

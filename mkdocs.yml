@@ -80,7 +80,7 @@ extra:
     - technical leadership
     - system design
     - software architecture
-  social_preview: assets/images/social-preview-placeholder.svg
+  social_preview: assets/images/social-preview.svg
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/srma4tech/aem-technical-lead-playbook
