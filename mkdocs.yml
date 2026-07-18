@@ -124,6 +124,11 @@ nav:
           - Script Resolution: 20-understanding-aem-internals/08-script-resolution.md
           - HTL Rendering: 20-understanding-aem-internals/09-htl-rendering.md
           - JCR Content Repository: 20-understanding-aem-internals/10-jcr-content-repository.md
+          - Response Generation: 20-understanding-aem-internals/11-response-generation.md
+          - End-to-End Request Flow: 20-understanding-aem-internals/12-end-to-end-request-flow.md
+          - Production Request Flow: 20-understanding-aem-internals/13-production-request-flow.md
+          - Common Request Problems: 20-understanding-aem-internals/14-common-request-problems.md
+          - Interview Readiness: 20-understanding-aem-internals/15-interview-readiness.md
       - AEM Core: 02-aem-core/README.md
       - Dispatcher: 03-dispatcher/README.md
       - Performance: 04-performance/README.md
