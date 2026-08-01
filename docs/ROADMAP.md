@@ -37,7 +37,7 @@ timeline
 | v0.9    | Technical Leadership        | Planned  |
 | v1.0    | Public Release              | Planned  |
 
-Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
+Release semantics and acceptance flow are defined in [RELEASES.md](../RELEASES.md).
 
 ## Learning Progression
 
@@ -98,7 +98,3 @@ flowchart LR
 - [ ] Technical-leadership practices and reviewed case studies
 - [ ] Interview handbook and reference material
 - [ ] Versioned v1.0 release and community maintainer program
-
-## Proposal Process
-
-Open a feature request for roadmap changes. Proposals must state audience value, dependencies, reviewers, maintenance cost, target release, and measurable completion criteria.
