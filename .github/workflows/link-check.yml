@@ -3,15 +3,15 @@ name: Link check
 on:
   pull_request:
     paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
-      - '.github/**'
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/**"
   push:
     branches: [main]
     paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
-      - '.github/**'
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/**"
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
@@ -49,8 +49,9 @@ jobs:
 
           echo "Downloading lychee from: $DOWNLOAD_URL"
           curl -fsSL "$DOWNLOAD_URL" -o /tmp/lychee.tar.gz
-          tar -xzf /tmp/lychee.tar.gz -C /tmp
-          sudo mv /tmp/lychee /usr/local/bin/lychee
+          mkdir -p /tmp/lychee-install
+          tar -xzf /tmp/lychee.tar.gz -C /tmp/lychee-install --strip-components=1
+          sudo install -m 0755 /tmp/lychee-install/lychee /usr/local/bin/lychee
           lychee --version
 
       - name: Run lychee link-check
