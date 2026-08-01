@@ -156,6 +156,7 @@ nav:
       - Architecture Review Checklist: checklists/architecture-review.md
   - Reference: 15-reference/README.md
   - Project:
+      - Engineering Dashboard: engineering-dashboard.md
       - Roadmap: ROADMAP.md
       - Release Dashboard: release-dashboard.md
       - Under Active Development: under-active-development.md

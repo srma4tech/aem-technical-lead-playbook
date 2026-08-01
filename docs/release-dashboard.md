@@ -57,6 +57,7 @@ flowchart LR
 
 ## Recommended next reading
 
+- [Engineering Dashboard](engineering-dashboard.md)
 - [Introduction](00-introduction/README.md)
 - [Learning Roadmap](01-learning-roadmap/README.md)
 - [AEM Engineering overview](20-understanding-aem-internals/README.md)
