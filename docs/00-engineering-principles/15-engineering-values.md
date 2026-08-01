@@ -6,7 +6,7 @@ Under pressure, teams reveal the standards they actually use. Explicit values pr
 
 ## Philosophy
 
-Values are observable commitments, not personality traits or branding. A useful value changes how work is planned, reviewed, operated, and corrected. When values conflict, engineers explain the trade-off and protect user, public, and professional obligations.
+Values are observable commitments, not personality traits or branding. A useful value changes how work is planned, reviewed, operated, and corrected. When values conflict, engineers explain the trade-off clearly.
 
 ## Core Ideas
 
@@ -21,7 +21,7 @@ Values are observable commitments, not personality traits or branding. A useful 
 
 ## Engineering Mindset
 
-Translate every stated value into behavior and mechanism. Integrity appears in risk reporting and incident records. Ownership appears in runbooks and corrective actions. Respect appears in review comments and decision participation. Quality appears in acceptance criteria and production evidence.
+Translate every stated value into behavior and mechanism. Integrity appears in risk reporting and incident records. Ownership appears in runbooks and corrective actions. Respect appears in review comments and 1:1 feedback. Curiosity appears in design documentation and blameless postmortems.
 
 ## Real World Examples
 
@@ -46,7 +46,7 @@ Translate every stated value into behavior and mechanism. Integrity appears in r
 
 ## Technical Lead Perspective
 
-The lead aligns incentives with stated values. They reward early risk disclosure, preventive work, clear documentation, constructive review, and growth of others. They address violations consistently, including when short-term delivery results appear positive.
+The lead aligns incentives with stated values. They reward early risk disclosure, preventive work, clear documentation, constructive review, and growth of others. They address violations consistently and model the standards they expect.
 
 ## Questions to Ask Yourself
 
@@ -75,9 +75,9 @@ The lead aligns incentives with stated values. They reward early risk disclosure
 - [Technical Lead Principles](02-technical-lead-principles.md)
 - [Production Ownership](04-production-ownership.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](../../templates/architecture-decision-record.md)
-- [Architecture review checklist](../../checklists/architecture-review.md)
-- [Repository roadmap](../../ROADMAP.md)
+- [Architecture decision template](../templates/architecture-decision-record.md)
+- [Architecture review checklist](../checklists/architecture-review.md)
+- [Repository roadmap](../ROADMAP.md)
 
 ## Future Reading
 
