@@ -47,7 +47,7 @@ Read code from the perspective of a maintainer under time pressure. Make state t
 
 ## Technical Lead Perspective
 
-A lead defines code health as a maintained system property. They fund incremental refactoring, ensure tests protect behavior, challenge speculative abstractions, and distinguish blocking correctne[...]
+A lead defines code health as a maintained system property. They fund incremental refactoring, ensure tests protect behavior, challenge speculative abstractions, and distinguish blocking correctness concerns from optional style preferences during review.
 
 ## Questions to Ask Yourself
 
@@ -68,7 +68,7 @@ A lead defines code health as a maintained system property. They fund incrementa
 
 - [Google — What to Look for in a Code Review](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
 - [Agile Manifesto — Principles](https://agilemanifesto.org/principles.html)
-- [Google SRE — Simplicity](https://sre.google/sre-book/simplicity/)
+- [Google SRE — Simplicity](https://sre.google.sre-book/simplicity/)
 
 ## Related Principles
 
