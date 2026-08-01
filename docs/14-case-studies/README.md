@@ -1,59 +1,40 @@
 # Case Studies
 
-## Overview
+## Mission
 
-Case Studies content will be added in a later phase.
+Make real-world engineering scenarios easier to study by connecting them to the principles, patterns, and leadership behavior used throughout this handbook.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- examine engineering decisions through structured, evidence-oriented narratives
+- connect technical outcomes to operational and leadership trade-offs
+- learn from realistic examples without losing the quality bar of rigorous documentation
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- production incidents and operational learning
+- system-design trade-off case studies
+- technical leadership and decision-review examples
+- multi-team delivery and governance scenarios
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the public-readiness and community-learning expansion.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Production Support](../11-production-support/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Technical Leadership](../10-technical-lead/README.md)
+- [Roadmap](../ROADMAP.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+Case-study content should be concise, honest, and useful for learning. It should show judgment and context rather than raw narration alone.

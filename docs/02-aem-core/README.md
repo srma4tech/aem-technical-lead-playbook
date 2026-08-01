@@ -1,59 +1,40 @@
 # AEM Core
 
-## Overview
+## Mission
 
-AEM Core content will be added in a later phase.
+Provide a durable foundation for understanding the AEM platform, repository model, authoring concepts, and core application patterns that support pragmatic delivery work.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- connect AEM core concepts to real delivery scenarios and repository behavior
+- reason about the platform’s architecture without relying on undocumented shortcuts
+- identify the right place to apply production, security, and operational judgment in AEM solutions
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- repository structure and content modeling fundamentals
+- authoring and runtime behavior
+- common platform capabilities and constraints
+- delivery patterns that align with enterprise engineering expectations
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the AEM engineering learning path.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Understanding AEM Internals](../20-understanding-aem-internals/README.md)
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Introduction](../00-introduction/README.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+The chapter should remain grounded in platform evidence, well-scoped use cases, and operationally useful examples. Contributions should preserve that rigor and help readers transition from theory to production-aware decision making.

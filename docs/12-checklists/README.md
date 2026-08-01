@@ -1,59 +1,39 @@
 # Checklists
 
-## Overview
+## Mission
 
-Checklists content will be added in a later phase.
+Curate a practical collection of lightweight quality controls that help engineering teams make better, safer, and more consistent delivery decisions.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- identify which operational or review checklists are appropriate for their context
+- use reusable controls to reduce avoidable mistakes and improve team alignment
+- understand how checklists reinforce rather than replace engineering judgment
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- delivery, code review, architecture review, and release checklists
+- reusable quality experiences for production and delivery management
+- consistency across checklist design and usage expectations
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the handbook’s contributor-quality and delivery-governance expansion.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Documentation Review](../checklists/documentation-review.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Documentation Review](../checklists/documentation-review.md)
+- [Roadmap](../ROADMAP.md)
+- [Engineering Excellence](../00-engineering-principles/06-engineering-excellence.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+Checklist content should stay focused and reusable. Every checklist should serve a concrete decision, review, or operational need.

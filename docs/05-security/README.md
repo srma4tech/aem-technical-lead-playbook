@@ -1,59 +1,40 @@
 # Security
 
-## Overview
+## Mission
 
-Security content will be added in a later phase.
+Provide production-minded guidance for secure AEM delivery, dependency hygiene, access design, and operational resilience.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- identify security risks in platform delivery and operational practices
+- understand the relationship between secure defaults and production ownership
+- connect security decisions to incident readiness, observability, and engineering review standards
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- secure configuration patterns
+- dependency and secrets management fundamentals
+- production risk assessment and blast-radius thinking
+- review and governance checkpoints for secure delivery
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned in the next release stream focused on platform operations and delivery quality.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Security First](../00-engineering-principles/10-security-first.md)
+- [Performance Thinking](../00-engineering-principles/09-performance-thinking.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [AEM Core](../02-aem-core/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+These topics should stay practical and evidence-based. Security guidance is most useful when framed in real delivery and operations language rather than abstract policy.

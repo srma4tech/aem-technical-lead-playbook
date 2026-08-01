@@ -1,59 +1,40 @@
 # Dispatcher
 
-## Overview
+## Mission
 
-Dispatcher content will be added in a later phase.
+Help engineers understand how dispatcher caching, request routing, and delivery performance shape a resilient AEM production architecture.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- explain the role of dispatcher in request handling and cache behavior
+- identify which delivery patterns reduce risk, latency, and operational complexity
+- connect dispatcher decisions to production observability and recovery planning
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- request flow and cache concepts
+- dispatcher configuration and operational supervision
+- cache invalidation and rollout risk
+- production troubleshooting patterns and performance trade-offs
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as a follow-on chapter to the AEM internals learning path.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Understanding AEM Internals](../20-understanding-aem-internals/README.md)
+- [Performance Thinking](../00-engineering-principles/09-performance-thinking.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Introduction](../00-introduction/README.md)
+- [AEM Core](../02-aem-core/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This chapter should stay concise, pattern-driven, and tied to real operating constraints. Contributions that improve practical understanding and incident readiness are the most valuable.

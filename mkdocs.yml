@@ -157,6 +157,8 @@ nav:
   - Reference: 15-reference/README.md
   - Project:
       - Roadmap: ROADMAP.md
+      - Release Dashboard: release-dashboard.md
+      - Under Active Development: under-active-development.md
       - Governance: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/GOVERNANCE.md
       - Releases: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md
       - Contributing: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md

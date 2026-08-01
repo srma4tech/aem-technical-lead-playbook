@@ -1,59 +1,40 @@
 # Technical Leadership
 
-## Overview
+## Mission
 
-Technical Leadership content will be added in a later phase.
+Support readers in moving from strong engineering execution to confident technical ownership, communication, and team-level leadership.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- connect engineering work to team outcomes, delivery risk, and shared decision quality
+- apply leadership practices that improve trust, communication, and practical accountability
+- guide technical execution without losing clarity about system constraints or production obligations
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- ownership, communication, and delivery governance
+- technical leadership behaviors for senior engineers and leads
+- delegation, escalation, and decision quality
+- production stewardship and scalable team practices
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned for the leadership and public-readiness milestone in the project roadmap.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Technical Lead Principles](../00-engineering-principles/02-technical-lead-principles.md)
+- [Production Ownership](../00-engineering-principles/04-production-ownership.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This chapter should stay relationship-aware, outcome-driven, and grounded in engineering leadership lessons that have clear operational relevance.

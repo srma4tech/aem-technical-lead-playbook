@@ -1,59 +1,40 @@
 # Performance
 
-## Overview
+## Mission
 
-Performance content will be added in a later phase.
+Turn performance engineering into a practical leadership capability for AEM and enterprise delivery teams.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- distinguish between useful performance optimization and unnecessary complexity
+- identify bottlenecks, measurement needs, and the quality of evidence behind performance claims
+- connect scalability decisions to business outcomes and platform constraints
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- benchmark design and execution
+- caching, concurrency, and failure-mode analysis
+- production observability and tail-latency awareness
+- performance reviews and regression prevention
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as a core learning chapter in a future release line.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Performance Thinking](../00-engineering-principles/09-performance-thinking.md)
+- [Understanding AEM Internals](../20-understanding-aem-internals/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Dispatcher](../03-dispatcher/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+Performance guidance should stay evidence-based and practically applicable. High-value changes include measurement procedures, deployment caveats, and production-grade examples.
