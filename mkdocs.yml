@@ -153,8 +153,10 @@ nav:
       - 0005 — Mermaid Standard: architecture/0005-mermaid-standard.md
   - Contributor Quality:
       - Documentation Review: checklists/documentation-review.md
+      - Architecture Review Checklist: checklists/architecture-review.md
   - Reference: 15-reference/README.md
   - Project:
+      - Roadmap: ROADMAP.md
       - Governance: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/GOVERNANCE.md
       - Releases: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md
       - Contributing: https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md

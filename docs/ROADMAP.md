@@ -37,7 +37,7 @@ timeline
 | v0.9    | Technical Leadership        | Planned  |
 | v1.0    | Public Release              | Planned  |
 
-Release semantics and acceptance flow are defined in [RELEASES.md](../RELEASES.md).
+Release semantics and acceptance flow are defined in [RELEASES.md](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md).
 
 ## Learning Progression
 
