@@ -6,7 +6,7 @@ Code is read, reviewed, debugged, extended, migrated, and operated far more ofte
 
 ## Philosophy
 
-Clean code makes intent and constraints visible with the least necessary complexity. It is not a cosmetic standard and it is not a specific style. The test is whether another qualified engineer can understand, validate, and safely change the behavior without reconstructing hidden assumptions.
+Clean code makes intent and constraints visible with the least necessary complexity. It is not a cosmetic standard and it is not a specific style. The test is whether another qualified engineer can[...]
 
 ## Core Ideas
 
@@ -22,7 +22,7 @@ Clean code makes intent and constraints visible with the least necessary complex
 
 ## Engineering Mindset
 
-Read code from the perspective of a maintainer under time pressure. Make state transitions, side effects, invariants, errors, and units explicit. Prefer a boring structure that can be tested and replaced over an elegant abstraction whose value is speculative.
+Read code from the perspective of a maintainer under time pressure. Make state transitions, side effects, invariants, errors, and units explicit. Prefer a boring structure that can be tested and r[...]
 
 ## Real World Examples
 
@@ -47,7 +47,7 @@ Read code from the perspective of a maintainer under time pressure. Make state t
 
 ## Technical Lead Perspective
 
-A lead defines code health as a maintained system property. They fund incremental refactoring, ensure tests protect behavior, challenge speculative abstractions, and distinguish blocking correctness concerns from optional style preferences during review.
+A lead defines code health as a maintained system property. They fund incremental refactoring, ensure tests protect behavior, challenge speculative abstractions, and distinguish blocking correctne[...]
 
 ## Questions to Ask Yourself
 
@@ -76,9 +76,9 @@ A lead defines code health as a maintained system property. They fund incrementa
 - [Engineering Excellence](06-engineering-excellence.md)
 - [Technical Lead Principles](02-technical-lead-principles.md)
 - [Architecture Decision Records](../architecture/README.md)
-- [Architecture decision template](../../templates/architecture-decision-record.md)
-- [Architecture review checklist](../../checklists/architecture-review.md)
-- [Repository roadmap](../../ROADMAP.md)
+- [Architecture decision template](../templates/architecture-decision-record.md)
+- [Architecture review checklist](../checklists/architecture-review.md)
+- [Repository roadmap](../ROADMAP.md)
 
 ## Future Reading
 
