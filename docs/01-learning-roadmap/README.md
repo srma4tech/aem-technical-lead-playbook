@@ -1,59 +1,40 @@
 # Learning Roadmap
 
-## Overview
+## Mission
 
-Learning Roadmap content will be added in a later phase.
+Guide readers through a practical path that moves from platform fundamentals to engineering leadership and architecture judgment.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- identify the most effective sequence for studying AEM, delivery, production operations, and leadership concerns
+- choose a role-based learning path aligned to their current level
+- connect each section of the playbook to a broader engineering learning progression
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- beginner, intermediate, senior engineer, technical lead, and architect paths
+- prerequisite expectations and estimated reading effort
+- chapter sequencing and cross-references between domains
+- recommended checkpoints for practice and production judgment
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the repository’s ongoing learning-path expansion.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Understanding AEM Internals](../20-understanding-aem-internals/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Introduction](../00-introduction/README.md)
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This roadmap should remain explicit, role-aware, and easy to maintain. Improved sequencing, prerequisites, and learner outcomes should be proposed and reviewed through the repository’s documentation workflow.

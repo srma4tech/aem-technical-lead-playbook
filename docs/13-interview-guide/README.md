@@ -1,59 +1,40 @@
 # Interview Guide
 
-## Overview
+## Mission
 
-Interview Guide content will be added in a later phase.
+Provide a structured path for engineers preparing for technical interviews with emphasis on system reasoning, communication, and production judgment.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- prepare for technical interviews with a clearer understanding of practical expectations
+- communicate architectural reasoning and trade-offs more effectively
+- connect interview preparation to real engineering leadership behavior
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- interview preparation and scenario framing
+- exploratory problem solving and system reasoning
+- leadership-oriented interview behaviors and communication
+- production-style casework and evidence-backed answers
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned for the public-readiness and interview-academy roadmap stream.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Technical Lead Principles](../00-engineering-principles/02-technical-lead-principles.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [System Design](../09-system-design/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+Interview content should remain practical, realistic, and aligned with the kind of engineering judgment employers and technical teams genuinely value.

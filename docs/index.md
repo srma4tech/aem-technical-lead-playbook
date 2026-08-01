@@ -1,59 +1,67 @@
 # AEM Technical Lead Playbook
 
-## Overview
+## Project mission
 
-Landing-page placeholder for the published playbook.
+AEM Technical Lead Playbook is an open-source engineering education platform for Adobe Experience Manager professionals, software engineers, technical leads, and future solution architects.
 
-## Why this Matters
+It exists to help readers build durable judgment in production engineering, system design, delivery leadership, and trustworthy technical communication.
 
-TODO: Describe the value of this topic.
+## Why this project exists
 
-## Learning Objectives
+This repository combines practical engineering knowledge, repository governance, reusable templates, and a structured learning journey. It supports progressive mastery rather than one-off documentation fragments.
 
-- TODO
+## Who it is for
 
-## Key Concepts
+- AEM developers building deeper platform understanding
+- Senior engineers growing into ownership and delivery leadership
+- Technical leads coordinating systems, teams, and production decisions
+- Aspiring architects developing applied architectural judgment
 
-- TODO
+## What is already completed
 
-## Architecture
+- repository foundation and governance
+- documentation architecture and publishing pipeline
+- engineering principles and quality controls
+- initial learning roadmap and AEM foundations
+- release and roadmap tracking
 
-TODO
+## Current release
 
-## Best Practices
+- Version: v0.3.0
+- Release focus: Understanding AEM Internals
+- Status: published and maintained
 
-- TODO
+## Learning journey
 
-## Common Mistakes
+1. Start with [Introduction](00-introduction/README.md)
+2. Review the [Engineering Principles](00-engineering-principles/README.md)
+3. Follow the [Learning Roadmap](01-learning-roadmap/README.md)
+4. Use the [Release Dashboard](release-dashboard.md) to track progress
+5. Continue into AEM delivery, production, and leadership chapters
 
-- TODO
+## Feature highlights
 
-## Production Notes
+- structured navigation and role-based learning progression
+- repository-wide quality gates and documentation standards
+- reusable engineering templates and operational checklists
+- roadmap-driven milestone visibility for learners and contributors
 
-TODO
+## Latest release
 
-## Performance
+See the [release policy](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md) for release semantics and the [changelog](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CHANGELOG.md) for notable repository changes.
 
-TODO
+## Contribution
 
-## Security
+Start with the [first contribution guide](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/FIRST_CONTRIBUTION.md), then follow [CONTRIBUTING.md](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md) and [STYLE_GUIDE.md](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/STYLE_GUIDE.md).
 
-TODO
+## GitHub and future AI
 
-## Interview Questions
+- [Open the repository on GitHub](https://github.com/srma4tech/aem-technical-lead-playbook)
+- [Engineering Mentor AI](https://github.com/srma4tech/aem-technical-lead-playbook) — Coming Soon
 
-- TODO
+## Recommended next reading
 
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+- [Engineering Principles](00-engineering-principles/README.md)
+- [Understanding AEM Internals](20-understanding-aem-internals/README.md)
+- [Roadmap](ROADMAP.md)
+- [Release Dashboard](release-dashboard.md)

@@ -1,59 +1,39 @@
 # Reference
 
-## Overview
+## Mission
 
-Reference content will be added in a later phase.
+Serve as a durable, discoverable repository of supporting material, curated links, and practical references that reinforce the main playbook content.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- find the most relevant supporting material quickly
+- understand where a reference belongs in the broader learning architecture
+- rely on the repository as a consistent source for reusable engineering context
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- referenced standards, guides, and external publications
+- commonly used governance and process links
+- repository-specific quick access resources for readers and contributors
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as the handbook matures into a broader education platform.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Roadmap](../ROADMAP.md)
+- [Introduction](../00-introduction/README.md)
+- [Engineering Principles](../00-engineering-principles/README.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+Reference material should stay curated and intentional. The goal is clarity and trustworthiness, not an unbounded index of links.

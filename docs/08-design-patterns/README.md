@@ -1,59 +1,40 @@
 # Design Patterns
 
-## Overview
+## Mission
 
-Design Patterns content will be added in a later phase.
+Teach readers when a pattern is genuinely improving system health versus adding unnecessary complexity.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- evaluate patterns based on context, operating constraints, and long-term maintenance cost
+- identify the difference between reusable solution patterns and speculative abstractions
+- apply design patterns selectively where they strengthen cohesion, clarity, and system resilience
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- structural and behavioral patterns in enterprise systems
+- anti-pattern recognition and trade-off analysis
+- pattern selection guided by production constraints
+- architectural reasoning for team and codebase maintainability
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the enterprise engineering and architecture learning path.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [System Design](../09-system-design/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Decision Making](../00-engineering-principles/05-decision-making.md)
+- [Engineering Excellence](../00-engineering-principles/06-engineering-excellence.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This section should remain intentionally opinionated about context, trade-offs, and maintainability rather than treating patterns as a catalog with no operating meaning.

@@ -1,59 +1,40 @@
 # Introduction
 
-## Overview
+## Mission
 
-Introduction content will be added in a later phase.
+Help new readers understand what this repository is, why it exists, and where to begin their learning journey.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- understand the purpose of the playbook and its audience
+- identify the role-based progression path through the handbook
+- recognize how the repository supports engineering education, production judgment, and technical leadership
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- repository purpose and learning philosophy
+- reader personas and role-based journeys
+- how to navigate the handbook and release roadmap
+- where to start for new contributors and learners
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned as part of the repository’s continuing learning-platform expansion.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Learning Roadmap](../01-learning-roadmap/README.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This section will evolve through the same quality gates used across the project. If you have a strong editorial or learner-experience improvement in mind, open a focused issue or contribute a reviewable draft through the repository workflow.

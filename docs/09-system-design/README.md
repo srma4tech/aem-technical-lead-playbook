@@ -1,59 +1,40 @@
 # System Design
 
-## Overview
+## Mission
 
-System Design content will be added in a later phase.
+Help readers move from implementation detail toward system-level reasoning, constraint management, and enterprise-scale trade-offs.
 
-## Why this Matters
+## Learning objectives
 
-TODO: Describe the value of this topic.
+By the time this chapter is published, readers should be able to:
 
-## Learning Objectives
+- frame system requirements and constraints in a production-ready way
+- compare architectural options based on maintainability, resilience, and delivery risk
+- connect system design decisions to business outcomes and operational accountability
 
-- TODO
+## Topics planned
 
-## Key Concepts
+- functional and non-functional requirement framing
+- component boundaries and integration trade-offs
+- quality attributes and platform decisions
+- communication patterns for architecture review and technical leadership
 
-- TODO
+## Estimated release
 
-## Architecture
+Planned for the advanced system-design learning stream.
 
-TODO
+## Related completed chapters
 
-## Best Practices
+- [Engineering Principles](../00-engineering-principles/README.md)
+- [Production Ownership](../00-engineering-principles/04-production-ownership.md)
+- [Release Dashboard](../release-dashboard.md)
 
-- TODO
+## Recommended reading
 
-## Common Mistakes
+- [Technical Lead Principles](../00-engineering-principles/02-technical-lead-principles.md)
+- [Decision Making](../00-engineering-principles/05-decision-making.md)
+- [Roadmap](../ROADMAP.md)
 
-- TODO
+## Contribution path
 
-## Production Notes
-
-TODO
-
-## Performance
-
-TODO
-
-## Security
-
-TODO
-
-## Interview Questions
-
-- TODO
-
-## References
-
-- TODO
-
-## Related Topics
-
-- TODO
-
-## TODO
-
-- [ ] Assign an owner.
-- [ ] Define scope and sources.
-- [ ] Draft and review in a later phase.
+This chapter should reinforce a disciplined Architecture Decision Record mindset and make system trade-offs visible, reviewable, and reusable.
