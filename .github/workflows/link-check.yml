@@ -2,8 +2,16 @@ name: Link check
 
 on:
   pull_request:
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/**"
   push:
     branches: [main]
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/**"
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
@@ -11,13 +19,42 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   links:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
-      - uses: lycheeverse/lychee-action@v2
-        with:
-          args: --config lychee.toml --no-progress .
-          fail: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y curl tar
+
+      - name: Install lychee (latest release)
+        run: |
+          set -euo pipefail
+          DOWNLOAD_URL=$(curl -fsSL https://api.github.com/repos/lycheeverse/lychee/releases/latest |
+            grep -o 'https://[^" ]*lychee-x86_64-unknown-linux-gnu\.tar\.gz' |
+            head -n 1)
+
+          if [ -z "$DOWNLOAD_URL" ]; then
+            echo "Unable to find lychee latest release URL" >&2
+            exit 1
+          fi
+
+          echo "Downloading lychee from: $DOWNLOAD_URL"
+          curl -fsSL "$DOWNLOAD_URL" -o /tmp/lychee.tar.gz
+          mkdir -p /tmp/lychee-install
+          tar -xzf /tmp/lychee.tar.gz -C /tmp/lychee-install --strip-components=1
+          sudo install -m 0755 /tmp/lychee-install/lychee /usr/local/bin/lychee
+          lychee --version
+
+      - name: Run lychee link-check
+        run: |
+          set -euo pipefail
+          lychee --config lychee.toml --no-progress .

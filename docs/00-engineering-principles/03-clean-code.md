@@ -68,7 +68,7 @@ A lead defines code health as a maintained system property. They fund incrementa
 
 - [Google — What to Look for in a Code Review](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
 - [Agile Manifesto — Principles](https://agilemanifesto.org/principles.html)
-- [Google SRE — Simplicity](https://sre.google.sre-book/simplicity/)
+- [Google SRE — Simplicity](https://sre.google/sre-book/simplicity/)
 
 ## Related Principles
 
