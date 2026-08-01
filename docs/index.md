@@ -61,6 +61,7 @@ Start with the [first contribution guide](https://github.com/srma4tech/aem-techn
 
 ## Recommended next reading
 
+- [Engineering Dashboard](engineering-dashboard.md)
 - [Engineering Principles](00-engineering-principles/README.md)
 - [Understanding AEM Internals](20-understanding-aem-internals/README.md)
 - [Roadmap](ROADMAP.md)
