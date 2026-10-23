@@ -27,12 +27,12 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 
 - **AEM Core** — substantive architecture chapter merged in PR #37, including platform layers, content modelling, component/service boundaries, JCR/Oak, security, performance, AEM 6.5 versus Cloud Service considerations, a worked integration scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Dispatcher** — substantive engineering chapter merged in PR #39. Covers request flow, filter security, cache eligibility, invalidation, CDN interactions, AEM as a Cloud Service differences, troubleshooting, a worked 403 scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Performance** — substantive engineering chapter merged in PR #41. Covers measurable objectives, test design, percentiles and saturation, bottleneck isolation across delivery/application/repository/dependency layers, optimization trade-offs, AEM as a Cloud Service caveats, incident workflow, and regression prevention. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 
 ### Scaffold-only chapter directories
 
 Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
 
-- **Performance** — write measurement-first performance engineering guidance.
 - **Security** — cover AEM-specific security and secure delivery.
 - **AEM as a Cloud Service** — cover cloud architecture, deployment, configuration, and operations.
 - **Enterprise Java** — cover Java runtime, concurrency, integration, testing, and resilience.
@@ -69,7 +69,7 @@ A chapter is not complete merely because its README exists. The author and revie
 1. **Baseline and governance:** resolve release metadata conflict; define the editorial review and source policy.
 2. **AEM Core:** establish platform fundamentals before deeper delivery chapters.
 3. **Dispatcher:** build on request lifecycle and delivery boundaries.
-4. **Performance and Security:** develop as separate reviewable milestones.
+4. **Performance and Security:** Performance content is merged; complete its publication review, then develop Security as a separate milestone.
 5. **AEM as a Cloud Service:** connect platform architecture to cloud deployment and operations.
 6. **Enterprise practice:** Enterprise Java, Design Patterns, System Design, and Production Support.
 7. **Leadership and learner tools:** Technical Leadership, Checklists, Interview Guide, Case Studies, and Reference.
