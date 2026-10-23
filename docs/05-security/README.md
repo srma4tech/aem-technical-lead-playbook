@@ -237,7 +237,7 @@ Do not treat a difficult-to-guess identifier as authorization. Access must be de
 Use the current documentation for the exact AEM version and deployment. These sources provide implementation-specific details and should be consulted during design and review.
 
 - [AEM 6.5 security checklist](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security-checklist)
-- [AEM as a Cloud Service security](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/overview)
+- [AEM as a Cloud Service security](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/cloud-service-security-overview)
 - [AEM as a Cloud Service development guidelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)
 - [AEM 6.5 user administration and security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)
 - [Dispatcher overview](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/dispatcher)
