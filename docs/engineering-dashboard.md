@@ -6,7 +6,7 @@ This dashboard is the central status surface for the AEM Technical Lead Playbook
 ## Repository Health
 
 !!! warning "Baseline reconciliation in progress"
-    The dashboard records `v0.4.0` and 74% overall progress, while `CHANGELOG.md` and the Release Dashboard identify `v0.3.0` as the latest documented release. The release tag and GitHub release evidence must be checked before choosing a canonical version. Overall and role-based progress figures are provisional until a chapter-level acceptance inventory supports them.
+The dashboard records `v0.4.0` and 74% overall progress, while `CHANGELOG.md` and the Release Dashboard identify `v0.3.0` as the latest documented release. The release tag and GitHub release evidence must be checked before choosing a canonical version. Overall and role-based progress figures are provisional until a chapter-level acceptance inventory supports them.
 
 The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
 
