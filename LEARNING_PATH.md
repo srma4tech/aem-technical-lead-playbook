@@ -4,12 +4,12 @@ This is the canonical role-based learning sequence for the AEM Technical Lead Pl
 
 ## Audience tracks
 
-|Track|Entry point|Intended outcome|
-|---|---|---|
-|AEM Developer|[Understanding AEM Internals](docs/20-understanding-aem-internals/README.md)|Explain request flow, resource/script resolution, rendering, and repository interactions|
-|Senior AEM Engineer|[Engineering Principles](docs/00-engineering-principles/README.md)|Investigate production behavior with evidence and account for performance, security, and reliability|
-|Technical Lead|[Technical Lead Principles](docs/00-engineering-principles/02-technical-lead-principles.md)|Guide design and delivery decisions, reviews, and team learning|
-|Future Solution Architect|[Engineering Principles](docs/00-engineering-principles/README.md), followed by the technical-lead path|Evaluate system-level options, constraints, cross-cutting risks, and architecture governance|
+| Track                     | Entry point                                                                                             | Intended outcome                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| AEM Developer             | [Understanding AEM Internals](docs/20-understanding-aem-internals/README.md)                            | Explain request flow, resource/script resolution, rendering, and repository interactions             |
+| Senior AEM Engineer       | [Engineering Principles](docs/00-engineering-principles/README.md)                                      | Investigate production behavior with evidence and account for performance, security, and reliability |
+| Technical Lead            | [Technical Lead Principles](docs/00-engineering-principles/02-technical-lead-principles.md)             | Guide design and delivery decisions, reviews, and team learning                                      |
+| Future Solution Architect | [Engineering Principles](docs/00-engineering-principles/README.md), followed by the technical-lead path | Evaluate system-level options, constraints, cross-cutting risks, and architecture governance         |
 
 These tracks are guidance, not certifications. Follow the path that matches your current role, and revisit foundations when needed.
 
