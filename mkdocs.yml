@@ -157,6 +157,7 @@ nav:
   - Reference: 15-reference/README.md
   - Project:
       - Engineering Dashboard: engineering-dashboard.md
+      - Chapter Inventory: chapter-inventory.md
       - Roadmap: ROADMAP.md
       - Release Dashboard: release-dashboard.md
       - Under Active Development: under-active-development.md
