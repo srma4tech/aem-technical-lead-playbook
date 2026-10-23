@@ -5,6 +5,9 @@ This dashboard is the central status surface for the AEM Technical Lead Playbook
 
 ## Repository Health
 
+!!! warning "Baseline reconciliation in progress"
+The dashboard records `v0.4.0` and 74% overall progress, while `CHANGELOG.md` and the Release Dashboard identify `v0.3.0` as the latest documented release. The release tag and GitHub release evidence must be checked before choosing a canonical version. Overall and role-based progress figures are provisional until a chapter-level acceptance inventory supports them.
+
 The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
 
 | Area                       | Status      | Signal                                                                                                              |
@@ -18,7 +21,6 @@ The repository is evolving from a strong documentation foundation into an engine
 | Production Engineering     | In Progress | Operational reasoning and support readiness are becoming core curriculum themes.                                    |
 | Open Source Readiness      | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
 | Community Growth           | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
-| Overall Progress           | 74%         | The project has a stable foundation and a clear roadmap for maturity expansion.                                     |
 
 ## Current Release
 
@@ -94,13 +96,11 @@ Repository statistics should be updated as the project grows. The current counts
 
 ### Progress by role
 
-| Learning Path   | Status            | Progress |
-| --------------- | ----------------- | -------- |
-| Beginner        | Active foundation | 78%      |
-| Intermediate    | In progress       | 66%      |
-| Senior Engineer | Emerging          | 58%      |
-| Technical Lead  | Planned expansion | 44%      |
-| Architect       | Future readiness  | 31%      |
+- Beginner — active foundation; percentage pending inventory.
+- Intermediate — in progress; percentage pending inventory.
+- Senior Engineer — emerging; percentage pending inventory.
+- Technical Lead — planned expansion; percentage pending inventory.
+- Architect — future readiness; percentage pending inventory.
 
 ```mermaid
 flowchart LR

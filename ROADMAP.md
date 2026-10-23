@@ -83,9 +83,12 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
+Status note: Introduction and Learning Roadmap are complete. AEM Core remains in progress/planned content and is tracked separately below. The engineering dashboard's overall percentage and release metadata are being reconciled against repository evidence before being treated as authoritative.
+
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
-- [ ] Introduction, learning roadmap, and AEM core content
+- [x] Introduction and learning roadmap (completed in PR #34)
+- [ ] AEM core content
 - [ ] Dispatcher, security, and performance foundations
 
 ## Phase 3 — Enterprise Practice
