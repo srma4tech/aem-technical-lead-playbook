@@ -27,9 +27,9 @@ timeline
 | Version | Milestone                   | Status   |
 | ------- | --------------------------- | -------- |
 | v0.1    | Repository Foundation       | Complete |
-| v0.2    | AEM Core                    | Planned  |
+| v0.2    | AEM Core                    | In review |
 | v0.3    | Understanding AEM Internals | Complete |
-| v0.4    | Dispatcher                  | Planned  |
+| v0.4    | Dispatcher                  | In review |
 | v0.5    | Performance                 | Planned  |
 | v0.6    | Security                    | Planned  |
 | v0.7    | AEMaaCS                     | Planned  |
@@ -83,13 +83,14 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core remains in progress/planned content and is tracked separately below. The engineering dashboard's overall percentage and release metadata are being reconciled against repository evidence before being treated as authoritative.
+Status note: Introduction and Learning Roadmap are complete. AEM Core and Dispatcher have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
 - [x] Introduction and learning roadmap (completed in PR #34)
 - [ ] AEM Core content — substantive draft merged in PR #37; final publication/editorial verification pending
-- [ ] Dispatcher, security, and performance foundations
+- [ ] Dispatcher content — substantive chapter merged in PR #39; final publication/editorial verification pending
+- [ ] Security and performance foundations
 
 ## Phase 3 — Enterprise Practice
 
