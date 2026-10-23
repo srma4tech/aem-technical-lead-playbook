@@ -16,26 +16,34 @@ A chapter can be marked Published only after meeting the [definition of done](#c
 
 This inventory was compiled from the current `main` branch file tree on 2026-10-23. File presence and approximate byte sizes were inspected; this is a structural baseline, not a full technical correctness review of every published page.
 
-| Area | Observed structure | Baseline status | Next action |
-| --- | --- | --- | --- |
-| Introduction | Learner-facing introduction and start guide | Published; updated in PR #34 | Keep links and onboarding guidance current |
-| Engineering Principles | Overview plus 15 topic chapters | Published; audit required | Spot-check links, accuracy, and cross-links during final editorial review |
-| Learning Roadmap | Role-based paths, sequence, and practice checkpoints | Published; updated in PR #34 | Keep planned vs published areas explicit |
-| Understanding AEM Internals | Overview plus 15 chapters | Published; audit required | Review technical accuracy and source coverage before v1.0 |
-| AEM Core | One landing-page README in its chapter directory | Scaffold only | Write substantive core architecture content |
-| Dispatcher | One landing-page README in its chapter directory | Scaffold only | Write request flow, filters, caching, invalidation, security, and operations content |
-| Performance | One landing-page README in its chapter directory | Scaffold only | Write measurement-first performance engineering content |
-| Security | One landing-page README in its chapter directory | Scaffold only | Write AEM-specific security and secure delivery content |
-| AEM as a Cloud Service | One landing-page README in its chapter directory | Scaffold only | Write cloud architecture, deployment, configuration, and operations content |
-| Enterprise Java | One landing-page README in its chapter directory | Scaffold only | Write Java runtime, concurrency, integration, testing, and resilience content |
-| Design Patterns | One landing-page README in its chapter directory | Scaffold only | Add context-driven patterns, anti-patterns, and trade-offs |
-| System Design | One landing-page README in its chapter directory | Scaffold only | Add requirements, architecture, quality attributes, and worked designs |
-| Technical Leadership | One landing-page README in its chapter directory | Scaffold only | Add leadership practices, decision records, reviews, and delivery governance |
-| Production Support | One landing-page README in its chapter directory | Scaffold only | Add incident response, diagnostics, mitigation, recovery, and postmortems |
-| Engineering Checklists | One landing-page README in its chapter directory; separate contributor checklists exist elsewhere | Audit required | Inventory existing checklists and consolidate around real decisions |
-| Interview Guide | One landing-page README in its chapter directory | Scaffold only | Add role/topic map, scenario questions, model answers, and evaluation rubrics |
-| Case Studies | One landing-page README in its chapter directory | Scaffold only | Add evidence-based, anonymized scenarios with outcomes and lessons |
-| Reference | One landing-page README in its chapter directory | Scaffold only | Curate authoritative sources and map them to relevant chapters |
+### Published or curated
+
+- **Introduction** — learner-facing introduction and start guide. Published; updated in PR #34. Keep links and onboarding guidance current.
+- **Engineering Principles** — overview plus 15 topic chapters. Published; audit required. Spot-check links, accuracy, and cross-links during final editorial review.
+- **Learning Roadmap** — role-based paths, sequence, and practice checkpoints. Published; updated in PR #34. Keep planned versus published areas explicit.
+- **Understanding AEM Internals** — overview plus 15 chapters. Published; audit required. Review technical accuracy and source coverage before v1.0.
+
+### Scaffold-only chapter directories
+
+Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
+
+- **AEM Core** — write platform architecture and fundamentals.
+- **Dispatcher** — cover request flow, filters, caching, invalidation, security, and operations.
+- **Performance** — write measurement-first performance engineering guidance.
+- **Security** — cover AEM-specific security and secure delivery.
+- **AEM as a Cloud Service** — cover cloud architecture, deployment, configuration, and operations.
+- **Enterprise Java** — cover Java runtime, concurrency, integration, testing, and resilience.
+- **Design Patterns** — add context-driven patterns, anti-patterns, and trade-offs.
+- **System Design** — add requirements, architecture, quality attributes, and worked designs.
+- **Technical Leadership** — add leadership practices, decision records, reviews, and delivery governance.
+- **Production Support** — add incident response, diagnostics, mitigation, recovery, and postmortems.
+- **Interview Guide** — add a role/topic map, scenario questions, model answers, and evaluation rubrics.
+- **Case Studies** — add evidence-based, anonymized scenarios with outcomes and lessons.
+- **Reference** — curate authoritative sources and map them to relevant chapters.
+
+### Requires a deeper inventory
+
+- **Engineering Checklists** — the chapter directory currently has a landing-page README; separate contributor checklists exist elsewhere. Inventory the existing checklists and consolidate around real decisions.
 
 ## Chapter definition of done
 
