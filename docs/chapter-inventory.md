@@ -23,11 +23,13 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 - **Learning Roadmap** — role-based paths, sequence, and practice checkpoints. Published; updated in PR #34. Keep planned versus published areas explicit.
 - **Understanding AEM Internals** — overview plus 15 chapters. Published; audit required. Review technical accuracy and source coverage before v1.0.
 
+### Substantive content merged; final publication review pending
+
+- **AEM Core** — substantive architecture chapter merged in PR #37, including platform layers, content modelling, component/service boundaries, JCR/Oak, security, performance, AEM 6.5 versus Cloud Service considerations, a worked integration scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+
 ### Scaffold-only chapter directories
 
 Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
-
-- **AEM Core** — write platform architecture and fundamentals.
 - **Dispatcher** — cover request flow, filters, caching, invalidation, security, and operations.
 - **Performance** — write measurement-first performance engineering guidance.
 - **Security** — cover AEM-specific security and secure delivery.
