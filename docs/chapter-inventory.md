@@ -30,6 +30,7 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 ### Scaffold-only chapter directories
 
 Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
+
 - **Dispatcher** — cover request flow, filters, caching, invalidation, security, and operations.
 - **Performance** — write measurement-first performance engineering guidance.
 - **Security** — cover AEM-specific security and secure delivery.
