@@ -21,7 +21,6 @@ The repository is evolving from a strong documentation foundation into an engine
 | Production Engineering     | In Progress | Operational reasoning and support readiness are becoming core curriculum themes.                                    |
 | Open Source Readiness      | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
 | Community Growth           | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
-| Overall Progress           | Pending     | The project has a stable foundation and a clear roadmap for maturity expansion.                                     |
 
 ## Current Release
 
@@ -97,13 +96,11 @@ Repository statistics should be updated as the project grows. The current counts
 
 ### Progress by role
 
-| Learning Path   | Status            | Progress |
-| --------------- | ----------------- | -------- |
-| Beginner        | Active foundation | Pending  |
-| Intermediate    | In progress       | Pending  |
-| Senior Engineer | Emerging          | Pending  |
-| Technical Lead  | Planned expansion | Pending  |
-| Architect       | Future readiness  | Pending  |
+- Beginner — active foundation; percentage pending inventory.
+- Intermediate — in progress; percentage pending inventory.
+- Senior Engineer — emerging; percentage pending inventory.
+- Technical Lead — planned expansion; percentage pending inventory.
+- Architect — future readiness; percentage pending inventory.
 
 ```mermaid
 flowchart LR
