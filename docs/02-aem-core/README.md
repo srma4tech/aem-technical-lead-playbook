@@ -38,8 +38,6 @@ This is a conceptual view, not a deployment diagram for every AEM offering. In A
 
 ### Responsibilities at a glance
 
-### Responsibilities at a glance
-
 - **CDN / web delivery:** edge delivery, TLS, and traffic handling according to the deployment. Ask: can this response be cached safely, and where is the cache boundary?
 - **Apache and Dispatcher:** web-server integration, request filtering, and supported cache behavior. Ask: is the request allowed, routed correctly, and cacheable?
 - **AEM runtime:** executes application behavior and platform services. Ask: which service, script, or component owns this behavior?
