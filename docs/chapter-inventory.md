@@ -26,12 +26,12 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 ### Substantive content merged; final publication review pending
 
 - **AEM Core** — substantive architecture chapter merged in PR #37, including platform layers, content modelling, component/service boundaries, JCR/Oak, security, performance, AEM 6.5 versus Cloud Service considerations, a worked integration scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Dispatcher** — substantive engineering chapter merged in PR #39. Covers request flow, filter security, cache eligibility, invalidation, CDN interactions, AEM as a Cloud Service differences, troubleshooting, a worked 403 scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 
 ### Scaffold-only chapter directories
 
 Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
 
-- **Dispatcher** — cover request flow, filters, caching, invalidation, security, and operations.
 - **Performance** — write measurement-first performance engineering guidance.
 - **Security** — cover AEM-specific security and secure delivery.
 - **AEM as a Cloud Service** — cover cloud architecture, deployment, configuration, and operations.
