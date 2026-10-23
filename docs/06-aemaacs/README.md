@@ -290,7 +290,7 @@ Use current Adobe documentation as the source of truth for supported capabilitie
 - [Cloud Manager introduction](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/introduction)
 - [AEM as a Cloud Service content delivery overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/overview)
 - [Dispatcher overview for AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/disp-overview)
-- [Migration journey to AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/overview)
+- [Migration journey to AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [Security overview for AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/cloud-service-security-overview)
 
 ## Completion criteria
