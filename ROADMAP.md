@@ -24,18 +24,17 @@ timeline
 
 ## Milestones
 
-| Version | Milestone                   | Status   |
-| ------- | --------------------------- | -------- |
-| v0.1    | Repository Foundation       | Complete |
-| v0.2    | AEM Core                    | In review |
-| v0.3    | Understanding AEM Internals | Complete |
-| v0.4    | Dispatcher                  | In review |
-| v0.5    | Performance                 | Planned  |
-| v0.6    | Security                    | Planned  |
-| v0.7    | AEMaaCS                     | Planned  |
-| v0.8    | Enterprise Java             | Planned  |
-| v0.9    | Technical Leadership        | Planned  |
-| v1.0    | Public Release              | Planned  |
+- **v0.1 — Repository Foundation:** Complete
+- **v0.2 — AEM Core:** In review; substantive draft merged, final publication/editorial verification pending.
+- **v0.3 — Understanding AEM Internals:** Complete
+- **v0.4 — Dispatcher:** In review; substantive chapter merged, final publication/editorial verification pending.
+- **v0.5 — Performance:** Planned
+- **v0.6 — Security:** Planned
+- **v0.7 — AEM as a Cloud Service:** Planned
+- **v0.8 — Enterprise Java:** Planned
+- **v0.9 — Technical Leadership:** Planned
+- **v1.0 — Public Release:** Planned
+
 
 Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
 
