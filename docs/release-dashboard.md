@@ -2,11 +2,15 @@
 
 ## Current release
 
+The current release recorded here is consistent with `CHANGELOG.md`. The Engineering Dashboard separately records `v0.4.0`; that discrepancy must be checked against the repository's release tags and GitHub releases before the next release is declared.
+
 - Version: v0.3.0
 - Focus: Understanding AEM Internals
 - Status: Released
 
 ## Completed chapters
+
+- [x] Introduction
 
 - [x] Engineering Principles
 - [x] Learning Roadmap
