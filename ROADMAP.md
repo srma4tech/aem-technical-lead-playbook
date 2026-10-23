@@ -32,6 +32,7 @@ timeline
 - **v0.6 — Security:** In review; substantive chapter merged in PR #43, final publication/editorial verification pending.
 - **v0.7 — AEM as a Cloud Service:** In review; substantive chapter merged in PR #44, final publication/editorial verification pending.
 - **v0.8 — Enterprise Java:** In review; substantive chapter merged in PR #46, final publication/editorial verification pending.
+- **Design Patterns:** Substantive chapter merged in PR #48; final publication/editorial verification pending.
 - **v0.9 — Technical Leadership:** Planned
 - **v1.0 — Public Release:** Planned
 
@@ -81,7 +82,7 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, and Enterprise Java have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
+Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, and Design Patterns have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
@@ -92,6 +93,7 @@ Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatche
 - [ ] Performance content — substantive chapter merged in PR #41; final publication/editorial verification pending
 - [ ] AEM as a Cloud Service — substantive chapter merged in PR #44; final publication/editorial verification pending
 - [ ] Enterprise Java — substantive chapter merged in PR #46; final publication/editorial verification pending
+- [ ] Design Patterns — substantive chapter merged in PR #48; final publication/editorial verification pending
 
 ## Phase 3 — Enterprise Practice
 
