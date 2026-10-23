@@ -8,7 +8,7 @@ This chapter is for senior engineers and technical leads designing Java, AEM, an
 
 ## Learning outcomes
 
-- Recognize common creational, structural, and behavioral patterns.
+- Recognize common object-creation, structural, and behavioral patterns.
 - Select patterns based on variation points and quality attributes.
 - Identify over-abstraction and pattern misuse.
 - Apply patterns to AEM components, services, integrations, and tests.
