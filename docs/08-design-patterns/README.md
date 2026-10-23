@@ -19,6 +19,7 @@ This chapter is for senior engineers and technical leads designing Java, AEM, an
 Before proposing a pattern, describe the problem in plain language. What varies? What must remain stable? Who owns the behavior? What failure mode or maintenance cost are we trying to reduce?
 
 A useful pattern should improve at least one of these:
+
 - clarity of responsibility;
 - isolation of change;
 - testability;
@@ -35,12 +36,14 @@ Use Strategy when a caller needs to select one of several interchangeable behavi
 **Example:** An integration layer can choose a pricing policy for different product classes. The caller depends on a pricing-policy contract; each implementation owns one policy.
 
 Good fit:
+
 - the alternatives are real and expected to evolve;
 - they share a meaningful contract;
 - selection is explicit and testable;
 - adding a strategy does not require modifying unrelated code.
 
 Poor fit:
+
 - there are only two trivial branches unlikely to change;
 - the interface merely renames one method without reducing coupling;
 - behavior is selected through hidden global state.
@@ -52,6 +55,7 @@ In AEM, a strategy can isolate external-system variants or content transformatio
 Adapter converts one interface into another expected by the application. It is useful when integrating a vendor API, legacy service, or platform API whose types and errors should not leak through the domain.
 
 An adapter should own:
+
 - request/response mapping;
 - protocol and authentication details;
 - timeout configuration;
@@ -69,6 +73,7 @@ Decorator wraps an object implementing the same contract to add behavior such as
 Use it when the added behavior should compose around an existing implementation and remain independently testable. Ensure the wrapper preserves the original contract, including exceptions, timing semantics, and resource cleanup.
 
 Risks:
+
 - decorators can stack into an opaque call chain;
 - ordering can change behavior;
 - hidden caching can introduce stale data or security leakage;
@@ -103,6 +108,7 @@ Prefer composition when behavior needs to vary independently, multiple dimension
 Observer or publish-subscribe patterns separate the event producer from interested consumers. They can reduce direct coupling, but they also make execution order, failure propagation, and end-to-end behavior less obvious.
 
 Before using events, decide:
+
 - Is delivery synchronous or asynchronous?
 - Can events be duplicated, delayed, or reordered?
 - What happens when a consumer fails?
@@ -178,6 +184,7 @@ If the benefit cannot be stated clearly, defer the abstraction.
 A product application currently calls one inventory provider. A second provider is being added for a different market, and each provider has different request formats and error codes.
 
 A reasonable design:
+
 1. Define a narrow inventory capability in application language.
 2. Implement one adapter per provider, each owning protocol mapping and error translation.
 3. Select the provider through explicit market or configuration policy.
