@@ -88,7 +88,7 @@ Status note: Introduction and Learning Roadmap are complete. AEM Core remains in
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
 - [x] Introduction and learning roadmap (completed in PR #34)
-- [ ] AEM core content
+- [ ] AEM Core content — substantive draft merged in PR #37; final publication/editorial verification pending
 - [ ] Dispatcher, security, and performance foundations
 
 ## Phase 3 — Enterprise Practice
