@@ -10,28 +10,28 @@ This dashboard is the central status surface for the AEM Technical Lead Playbook
 
 The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
 
-| Area                       | Status      | Signal                                                                                                              |
-| -------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| Documentation Coverage     | Strong      | Core handbook structure, learning topology, and navigation are now in place.                                        |
-| Repository Quality         | Strong      | Formatting, linting, spell checking, link validation, and strict MkDocs validation are all part of the quality bar. |
-| Architecture Documentation | Strong      | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained.             |
-| Learning Content           | In Progress | Foundational and role-based chapters are being expanded into a richer learning experience.                          |
-| Interview Readiness        | In Progress | Interview-related material is being structured for practical senior-level preparation.                              |
-| Technical Leadership       | In Progress | Leadership and production stewardship patterns are being formalized.                                                |
-| Production Engineering     | In Progress | Operational reasoning and support readiness are becoming core curriculum themes.                                    |
-| Open Source Readiness      | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
-| Community Growth           | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
-| Overall Progress           | Recalculation pending | Establish a chapter-level inventory and acceptance criteria before reporting a percentage.                         |
+| Area                       | Status                | Signal                                                                                                              |
+| -------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Documentation Coverage     | Strong                | Core handbook structure, learning topology, and navigation are now in place.                                        |
+| Repository Quality         | Strong                | Formatting, linting, spell checking, link validation, and strict MkDocs validation are all part of the quality bar. |
+| Architecture Documentation | Strong                | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained.             |
+| Learning Content           | In Progress           | Foundational and role-based chapters are being expanded into a richer learning experience.                          |
+| Interview Readiness        | In Progress           | Interview-related material is being structured for practical senior-level preparation.                              |
+| Technical Leadership       | In Progress           | Leadership and production stewardship patterns are being formalized.                                                |
+| Production Engineering     | In Progress           | Operational reasoning and support readiness are becoming core curriculum themes.                                    |
+| Open Source Readiness      | Strong                | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
+| Community Growth           | In Progress           | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
+| Overall Progress           | Recalculation pending | Establish a chapter-level inventory and acceptance criteria before reporting a percentage.                          |
 
 ## Current Release
 
-| Item                      | Value                                                                                                                            |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Dashboard-recorded Version | `v0.4.0` (conflicts with `CHANGELOG.md` and Release Dashboard; reconciliation pending)                                                                                                                         |
-| Dashboard-recorded Release Date | `2026-08-01` (release evidence needs verification)                                                                                                                     |
-| Latest Completed Features | Homepage experience refresh, chapter landing-page upgrades, release dashboard expansion, and stricter docs validation alignment. |
-| Upcoming Release          | `v0.5.0`                                                                                                                         |
-| Release Notes             | Delivery quality, academic UX, documentation navigation improvements, and a more polished project status experience.             |
+| Item                            | Value                                                                                                                            |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Dashboard-recorded Version      | `v0.4.0` (conflicts with `CHANGELOG.md` and Release Dashboard; reconciliation pending)                                           |
+| Dashboard-recorded Release Date | `2026-08-01` (release evidence needs verification)                                                                               |
+| Latest Completed Features       | Homepage experience refresh, chapter landing-page upgrades, release dashboard expansion, and stricter docs validation alignment. |
+| Upcoming Release                | `v0.5.0`                                                                                                                         |
+| Release Notes                   | Delivery quality, academic UX, documentation navigation improvements, and a more polished project status experience.             |
 
 ## Learning Progress
 
@@ -78,17 +78,17 @@ pie title Learning Progress Mix
 These figures represent the current repository structure and documentation asset breadth.
 
 | Metric                | Count |
-| --------------------- | ----: |
-| Markdown Pages        |    61 |
-| Architecture Diagrams |     8 |
-| Mermaid Diagrams      |     0 |
-| Templates             |     9 |
-| Checklists            |    10 |
-| ADRs                  |     7 |
-| Interview Questions   |     1 |
-| Production Stories    |     0 |
-| Examples              |     0 |
-| Cross References      |    61 |
+| --------------------- | ----- |
+| Markdown Pages        | 61    |
+| Architecture Diagrams | 8     |
+| Mermaid Diagrams      | 0     |
+| Templates             | 9     |
+| Checklists            | 10    |
+| ADRs                  | 7     |
+| Interview Questions   | 1     |
+| Production Stories    | 0     |
+| Examples              | 0     |
+| Cross References      | 61    |
 
 !!! note "Maintenance note"
 Repository statistics should be updated as the project grows. The current counts represent the present documentation and asset inventory used to support the handbook.
@@ -97,8 +97,8 @@ Repository statistics should be updated as the project grows. The current counts
 
 ### Progress by role
 
-| Learning Path   | Status            | Progress |
-| --------------- | ----------------- | -------- |
+| Learning Path   | Status            | Progress         |
+| --------------- | ----------------- | ---------------- |
 | Beginner        | Active foundation | Not recalculated |
 | Intermediate    | In progress       | Not recalculated |
 | Senior Engineer | Emerging          | Not recalculated |
