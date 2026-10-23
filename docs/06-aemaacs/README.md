@@ -37,14 +37,12 @@ Exact topology and capabilities depend on the AEMaaCS offering and program confi
 
 Traditional AEM operations may involve direct host access, manual service restarts, direct filesystem edits, and operational scripts tied to individual instances. In AEMaaCS, the supported approach is to deliver application code and configuration through the approved pipeline and use the available service tooling and logs.
 
-| Concern | Traditional assumption to reconsider | Cloud-oriented approach |
-|---|---|---|
-| Deployment | Copy code or packages directly to a server | Use supported Cloud Manager pipelines and package structure |
-| Runtime state | Local filesystem or instance-specific state can be relied upon | Design for replaceable runtime instances and supported persistence |
-| Configuration | Change an instance manually and leave it in place | Version configuration and deploy it through the supported model |
-| Scaling | Tune a fixed number of instances | Design for changing capacity and verify service-specific scaling behavior |
-| Troubleshooting | SSH or inspect local files directly | Use pipeline history, available logs, metrics, environment tools, and reproducible evidence |
-| Platform updates | Plan all platform upgrades as project-managed maintenance | Keep code compatible with the managed update cadence and validate regularly |
+- **Deployment:** Replace direct server/package copying with supported Cloud Manager pipelines and package structure.
+- **Runtime state:** Do not rely on instance-local filesystem or mutable state; design for replaceable runtime instances and supported persistence.
+- **Configuration:** Version configuration and deploy it through supported mechanisms instead of making manual instance changes.
+- **Scaling:** Design for changing capacity and verify service-specific scaling behavior rather than tuning a fixed number of instances.
+- **Troubleshooting:** Use pipeline history, available logs, metrics, environment tools, and reproducible evidence instead of assuming direct host access.
+- **Platform updates:** Validate regularly against the managed update cadence rather than treating every platform upgrade as a project-managed server maintenance task.
 
 These are architectural directions, not substitutes for checking current Adobe product documentation.
 
@@ -234,15 +232,13 @@ Avoid a “lift and hope” migration. A green pipeline does not prove that cont
 
 Start with a specific symptom, timeframe, environment, and affected journey. Collect evidence before making changes.
 
-| Symptom | Investigation direction |
-|---|---|
-| Deployment failed | Inspect the exact pipeline step, build output, validation message, package/configuration change, and commit |
-| Works in lower environment but fails in production | Compare deployed commit, environment configuration, permissions, external credentials, routing, and data differences |
-| Stale public content | Check activation outcome, cache headers, CDN/Dispatcher behavior, invalidation, and whether the response is from cache or origin |
-| Slow requests | Separate edge/cache misses from publish rendering, repository queries, and downstream dependency latency |
-| Background task is duplicated or missing | Inspect scheduling/execution semantics, idempotency, logs, retry behavior, and any assumptions about a single instance |
-| Integration errors | Check timeout, TLS/authentication, credential validity, response shape, rate limits, retry amplification, and dependency health |
-| Access denied | Verify the caller identity, effective repository permissions, endpoint authorization, and delivery-layer filters independently |
+- **Deployment failed:** Inspect the exact pipeline step, build output, validation message, package/configuration change, and commit.
+- **Works in lower environment but fails in production:** Compare deployed commit, environment configuration, permissions, external credentials, routing, and data differences.
+- **Stale public content:** Check activation outcome, cache headers, CDN/Dispatcher behavior, invalidation, and whether the response is from cache or origin.
+- **Slow requests:** Separate edge/cache misses from publish rendering, repository queries, and downstream dependency latency.
+- **Background task is duplicated or missing:** Inspect scheduling/execution semantics, idempotency, logs, retry behavior, and any assumptions about a single instance.
+- **Integration errors:** Check timeout, TLS/authentication, credential validity, response shape, rate limits, retry amplification, and dependency health.
+- **Access denied:** Verify the caller identity, effective repository permissions, endpoint authorization, and delivery-layer filters independently.
 
 Use available Cloud Manager information, supported logs and environment tools, request identifiers, timestamps, and deployed commit history. The exact diagnostic facilities differ by environment and service configuration. Do not invent access to host-level tools that the service does not expose.
 
