@@ -35,7 +35,6 @@ timeline
 - **v0.9 — Technical Leadership:** Planned
 - **v1.0 — Public Release:** Planned
 
-
 Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
 
 ## Learning Progression
