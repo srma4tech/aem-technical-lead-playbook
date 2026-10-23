@@ -29,8 +29,8 @@ timeline
 - **v0.3 — Understanding AEM Internals:** Complete
 - **v0.4 — Dispatcher:** In review; substantive chapter merged, final publication/editorial verification pending.
 - **v0.5 — Performance:** In review; substantive chapter merged in PR #41, final publication/editorial verification pending.
-- **v0.6 — Security:** Planned
-- **v0.7 — AEM as a Cloud Service:** Planned
+- **v0.6 — Security:** In review; substantive chapter merged in PR #43, final publication/editorial verification pending.
+- **v0.7 — AEM as a Cloud Service:** In review; substantive chapter merged in PR #44, final publication/editorial verification pending.
 - **v0.8 — Enterprise Java:** Planned
 - **v0.9 — Technical Leadership:** Planned
 - **v1.0 — Public Release:** Planned
@@ -81,15 +81,16 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, and Performance have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
+Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, and AEM as a Cloud Service have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
 - [x] Introduction and learning roadmap (completed in PR #34)
 - [ ] AEM Core content — substantive draft merged in PR #37; final publication/editorial verification pending
 - [ ] Dispatcher content — substantive chapter merged in PR #39; final publication/editorial verification pending
-- [ ] Security foundation
+- [ ] Security foundation — substantive chapter merged in PR #43; final publication/editorial verification pending
 - [ ] Performance content — substantive chapter merged in PR #41; final publication/editorial verification pending
+- [ ] AEM as a Cloud Service — substantive chapter merged in PR #44; final publication/editorial verification pending
 
 ## Phase 3 — Enterprise Practice
 
