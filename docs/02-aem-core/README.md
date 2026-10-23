@@ -38,15 +38,15 @@ This is a conceptual view, not a deployment diagram for every AEM offering. In A
 
 ### Responsibilities at a glance
 
-| Layer or capability | Primary responsibility | Engineering question |
-| --- | --- | --- |
-| CDN / web delivery | Edge delivery, TLS and traffic handling according to the deployment | Can this response be cached safely, and where is the cache boundary? |
-| Apache and Dispatcher | Web-server integration, request filtering, and supported cache behavior | Is the request allowed, routed correctly, and cacheable? |
-| AEM runtime | Executes application behavior and platform services | Which service, script, or component owns this behavior? |
-| Sling | Maps requests to resources and selects scripts or servlets | What resource and renderer should handle this request? |
-| OSGi services | Provides modular, configurable Java services | What is the service contract, lifecycle, and configuration boundary? |
-| JCR / Oak | Stores hierarchical content and repository state | What is the content model, permission model, and access pattern? |
-| External systems | Provides data or business capabilities outside AEM | What are the timeout, authentication, failure, and recovery rules? |
+### Responsibilities at a glance
+
+- **CDN / web delivery:** edge delivery, TLS, and traffic handling according to the deployment. Ask: can this response be cached safely, and where is the cache boundary?
+- **Apache and Dispatcher:** web-server integration, request filtering, and supported cache behavior. Ask: is the request allowed, routed correctly, and cacheable?
+- **AEM runtime:** executes application behavior and platform services. Ask: which service, script, or component owns this behavior?
+- **Sling:** maps requests to resources and selects scripts or servlets. Ask: what resource and renderer should handle this request?
+- **OSGi services:** provides modular, configurable Java services. Ask: what is the service contract, lifecycle, and configuration boundary?
+- **JCR / Oak:** stores hierarchical content and repository state. Ask: what is the content model, permission model, and access pattern?
+- **External systems:** provides data or business capabilities outside AEM. Ask: what are the timeout, authentication, failure, and recovery rules?
 
 ## Authoring, publishing, and content lifecycle
 
@@ -153,13 +153,11 @@ Measure before optimizing. A useful investigation starts with a symptom and a re
 
 Many programming concepts are shared, but deployment and operational assumptions differ.
 
-| Concern | AEM 6.5 deployments | AEM as a Cloud Service |
-| --- | --- | --- |
-| Runtime and infrastructure | Depends on the chosen on-premises or managed-service topology | Adobe-managed, dynamically operated service architecture |
-| Code deployment | Follows the deployment and maintenance model of the environment | Cloud Manager is the standard deployment path for customer code to cloud environments |
-| Mutable content vs application code | Must follow the specific installation and project model | Package and repository content must respect the cloud service's code/content separation |
-| Instance assumptions | Must account for the actual topology and failover design | Code must be cluster-aware and resilient to instance replacement and rolling updates |
-| Troubleshooting | Use available logs, monitoring, repository tools, and environment access | Use Cloud Manager and the supported cloud observability and debugging capabilities |
+- **Runtime and infrastructure:** AEM 6.5 depends on the selected on-premises or managed-service topology. AEM as a Cloud Service uses an Adobe-managed, dynamically operated service architecture.
+- **Code deployment:** AEM 6.5 follows the environment's deployment and maintenance model. Cloud Manager is the standard deployment path for customer code to AEM as a Cloud Service environments.
+- **Mutable content versus application code:** follow the installation and project model in AEM 6.5. In Cloud Service, packages and repository content must respect the service's code/content separation.
+- **Instance assumptions:** AEM 6.5 must account for the actual topology and failover design. Cloud Service code must be cluster-aware and resilient to instance replacement and rolling updates.
+- **Troubleshooting:** use the logs, monitoring, repository tools, and environment access available for the deployment. In Cloud Service, use Cloud Manager and supported cloud observability and debugging capabilities.
 
 This table is a high-level comparison, not a migration checklist. For current details, consult Adobe's [AEM as a Cloud Service development guidelines](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines), [project structure guidance](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure), and [deployment overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
 
