@@ -6,10 +6,10 @@ This roadmap helps you move from AEM platform fundamentals toward production own
 
 |Track|Start here|Focus|Evidence of progress|
 |---|---|---|---|
-|AEM Developer| [Understanding AEM Internals](../20-understanding-aem-internals/README.md)|Request lifecycle, Dispatcher/Apache, Sling resolution, HTL, JCR/Oak, and response generation|Explain the request path and investigate a rendering or resolution problem using evidence |
-|Senior AEM Engineer| [Engineering Principles](../00-engineering-principles/README.md), then [Understanding AEM Internals](../20-understanding-aem-internals/README.md)|Debugging, performance, security, maintainability, and production ownership|Produce a reasoned investigation plan with assumptions, evidence, risks, and validation |
-|AEM Technical Lead| [Technical Lead Principles](../00-engineering-principles/02-technical-lead-principles.md), then the AEM internals path|Design trade-offs, code review, delivery governance, mentoring, and operational readiness|Explain a decision, alternatives, consequences, rollout, and recovery approach |
-|Future Solution Architect| [Engineering Principles](../00-engineering-principles/README.md), then the technical-lead path|Business/system context, integrations, cross-cutting qualities, architecture governance, and communication|Present a context-aware architecture proposal with constraints, options, risks, and validation |
+|AEM Developer|[Understanding AEM Internals](../20-understanding-aem-internals/README.md)|Request lifecycle, Dispatcher/Apache, Sling resolution, HTL, JCR/Oak, and response generation|Explain the request path and investigate a rendering or resolution problem using evidence|
+|Senior AEM Engineer|[Engineering Principles](../00-engineering-principles/README.md), then [Understanding AEM Internals](../20-understanding-aem-internals/README.md)|Debugging, performance, security, maintainability, and production ownership|Produce a reasoned investigation plan with assumptions, evidence, risks, and validation|
+|AEM Technical Lead|[Technical Lead Principles](../00-engineering-principles/02-technical-lead-principles.md), then the AEM internals path|Design trade-offs, code review, delivery governance, mentoring, and operational readiness|Explain a decision, alternatives, consequences, rollout, and recovery approach|
+|Future Solution Architect|[Engineering Principles](../00-engineering-principles/README.md), then the technical-lead path|Business/system context, integrations, cross-cutting qualities, architecture governance, and communication|Present a context-aware architecture proposal with constraints, options, risks, and validation|
 
 These are recommended routes, not formal certifications. Completion should be based on demonstrated understanding and practical evidence, not reading time alone.
 
