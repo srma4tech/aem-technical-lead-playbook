@@ -1,34 +1,40 @@
 # Engineering Dashboard
 
 !!! tip "Project status"
-This dashboard is the central status surface for the AEM Technical Lead Playbook. It highlights the project’s maturity, learning progress, release movement, and platform readiness without repeating the full handbook content.
+This dashboard is the central status surface for the AEM Technical Lead Playbook. It highlights project maturity, learning progress, release movement, and platform readiness without repeating the full handbook content.
 
 ## Repository Health
 
 !!! warning "Release evidence pending"
 The 2026-10-24 audit found only `v0.1.1` and `v0.2.0` Git tags, both pointing to the same commit (`c78d41c1ddf7038034a5e99b35f0aac72a508217`), and no GitHub Releases. The changelog's `v0.3.0` and former dashboard's `v0.4.0` claims are not backed by matching release records. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
 
-The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
+The documentation platform is deployed and its latest recorded CI/Pages run passed. The remaining work is acceptance-oriented: chapter-by-chapter technical and source review, a browser smoke check, and reconciliation of the formal release tag/release record.
 
-| Area                       | Status      | Signal                                                                                                              |
-| -------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
-| Documentation Coverage     | Strong      | Core handbook structure, learning topology, and navigation are now in place.                                        |
-| Repository Quality         | Strong      | Formatting, linting, spell checking, link validation, and strict MkDocs validation are all part of the quality bar. |
-| Architecture Documentation | Strong      | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained.             |
-| Learning Content           | In Progress | Foundational and role-based chapters are being expanded into a richer learning experience.                          |
-| Interview Readiness        | In Progress | Interview-related material is being structured for practical senior-level preparation.                              |
-| Technical Leadership       | In Progress | Leadership and production stewardship patterns are being formalized.                                                |
-| Production Engineering     | In Progress | Operational reasoning and support readiness are becoming core curriculum themes.                                    |
-| Open Source Readiness      | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
-| Community Growth           | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
+| Area | Status | Signal |
+| --- | --- | --- |
+| Documentation Coverage | Strong | Handbook structure, learning topology, and navigation are in place. |
+| Repository Quality | Strong | Formatting, linting, spell checking, link validation, and strict MkDocs validation are part of the quality bar; latest recorded run passed. |
+| Architecture Documentation | Strong | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained. |
+| Learning Content | In Progress | Substantive content is merged across the primary learning paths; final editorial/source audit remains. |
+| Interview Readiness | In Progress | Interview material is available for practical senior-level preparation; review remains open. |
+| Technical Leadership | In Progress | Leadership and production stewardship chapters are deployed; editorial review remains open. |
+| Production Engineering | In Progress | Operational reasoning and support-readiness material is available; editorial review remains open. |
+| Open Source Readiness | Strong | Governance, contribution guidance, release strategy, and repository ownership signals are established. |
+| Community Growth | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption. |
 
-## Release Evidence
+## Deployment and Release Evidence
 
-- Last documented changelog entry: `v0.3.0` (not backed by a matching Git tag or GitHub Release).
-- Existing Git tags: `v0.1.1` and `v0.2.0`, both pointing to the same commit.
-- GitHub Releases: none found.
-- Canonical current release: not declared until release boundary, tag, and deployment evidence are reconciled.
-- Current chapter-level state: substantive content is merged across the primary learning paths; final editorial review, strict site build, and live-page verification remain required.
+- **Latest recorded main commit:** `d0f2b8379bf0aaea7a2e262cb23f4dee9933c61f`.
+- **Latest recorded GitHub Actions run:** [Run 40048778350](https://github.com/srma4tech/aem-technical-lead-playbook/actions/runs/40048778350).
+- **Recorded checks:** Build Documentation, Deploy GitHub Pages, lint, spell, and links all succeeded.
+- **Published site:** [AEM Technical Lead Playbook](https://srma4tech.github.io/aem-technical-lead-playbook/).
+- **Live browser smoke check:** still pending. CI success and a generated Pages artifact confirm build/deployment, but do not substitute for checking the rendered site in a browser.
+- **SEO metadata:** relevant project keywords are configured in `mkdocs.yml`; generated site output was previously inspected to confirm the keywords meta tag is present.
+- **Git tags:** `v0.1.1` and `v0.2.0`, both pointing to the same commit.
+- **GitHub Releases:** none found in the last audit.
+- **Canonical current release:** not declared until the release boundary, tag, and release record are reconciled.
+
+The deployment status above is evidence from the recorded Actions run; rerun the required checks against the final release candidate before a formal release.
 
 ## Learning Progress
 
@@ -59,17 +65,15 @@ The repository is evolving from a strong documentation foundation into an engine
 
 ### Remaining v1.0 readiness work
 
-- Technical and editorial audit across all substantive chapters
-- Verify strict MkDocs build and GitHub Pages deployment
-- Inspect live pages, navigation, responsive layout, and key links
-- Confirm canonical release tag and GitHub Release evidence
-- Resolve any remaining accessibility, source, or content-quality gaps
+- Complete technical/editorial and source audit across substantive chapters.
+- Perform a live browser smoke check of navigation, key links, responsive layout, and representative chapter pages.
+- Resolve remaining accessibility, source-quality, or content-quality gaps found during review.
+- Confirm the release boundary, create the canonical Git tag and GitHub Release, and verify the release-candidate deployment.
+- Rerun the strict site build and required CI checks against the final release candidate.
 
 Progress percentages are intentionally omitted until the chapter inventory supports a defensible acceptance-based calculation.
 
 ## Repository Statistics
-
-These figures represent the current repository structure and documentation asset breadth.
 
 Repository counts are intentionally omitted until they can be regenerated from the current repository tree; use the chapter inventory and repository search for current coverage.
 
@@ -80,11 +84,11 @@ Repository statistics should be regenerated from the repository tree when needed
 
 ### Progress by role
 
-- Beginner — active foundation; percentage pending inventory.
-- Intermediate — in progress; percentage pending inventory.
-- Senior Engineer — emerging; percentage pending inventory.
-- Technical Lead — planned expansion; percentage pending inventory.
-- Architect — future readiness; percentage pending inventory.
+- Beginner — active foundation; acceptance status tracked in the chapter inventory.
+- Intermediate — in progress; acceptance status tracked in the chapter inventory.
+- Senior Engineer — emerging; acceptance status tracked in the chapter inventory.
+- Technical Lead — in progress; acceptance status tracked in the chapter inventory.
+- Architect — future readiness; acceptance status tracked in the chapter inventory.
 
 ```mermaid
 flowchart LR
@@ -98,10 +102,10 @@ flowchart LR
 
 ### Status summary
 
-- Completed: repository foundation, navigation, governance, release strategy, and core handbook setup.
-- In Progress: learning path expansion, chapter maturity, and platform polish.
-- Planned: advanced enterprise practice, public readiness, and community growth.
-- Future Vision: a globally discoverable, contributor-led engineering platform for AEM and technical leadership education.
+- **Completed:** repository foundation, navigation, governance, release strategy, and core handbook setup.
+- **In progress:** learning-path maturity, technical/editorial audit, and platform polish.
+- **Planned:** final public-readiness review, formal release evidence, and community growth.
+- **Future vision:** a globally discoverable, contributor-led engineering platform for AEM and technical leadership education.
 
 ```mermaid
 timeline
@@ -128,17 +132,18 @@ The goal is to support asynchronous coaching and guided learning while preservin
 
 ## Open Source
 
-| Area              | Direction                                                                                                                                |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Area | Direction |
+| --- | --- |
 | How to Contribute | Use [CONTRIBUTING.md](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md) and the contributor templates. |
-| Open Issues       | Monitor the repository for roadmap alignment and documentation improvements.                                                             |
-| Future Milestones | Advance chapter maturity, strengthen editorial review, and scale contributor readiness.                                                  |
-| Community Goals   | Build a trusted, high-signal technical learning platform for AEM and engineering leadership.                                             |
+| Open Issues | Monitor the repository for roadmap alignment and documentation improvements. |
+| Future Milestones | Advance chapter maturity, strengthen editorial review, and scale contributor readiness. |
+| Community Goals | Build a trusted, high-signal technical learning platform for AEM and engineering leadership. |
 
 ## Related Pages
 
 - [Home](index.md)
 - [Release Dashboard](release-dashboard.md)
+- [Chapter Inventory](chapter-inventory.md)
 - [Roadmap](ROADMAP.md)
 - [Learning Roadmap](01-learning-roadmap/README.md)
 - [Under Active Development](under-active-development.md)
