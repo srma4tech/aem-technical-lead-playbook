@@ -57,6 +57,7 @@ Record platform versions, supported APIs, data residency, existing contracts, de
 A design should be plausible for the expected workload, not only for a happy-path demo.
 
 Estimate:
+
 - normal and peak request rates;
 - burst duration and likely causes;
 - read/write ratio;
@@ -89,6 +90,7 @@ Do not assume every box must become a separate microservice. A box can be a logi
 ### Define responsibility and ownership
 
 For each component, write down:
+
 - the capability it owns;
 - the data it is authoritative for;
 - the APIs or events it exposes;
@@ -137,6 +139,7 @@ When asynchronous propagation is used, define the expected lag, how lag is measu
 Caching can reduce origin load and improve latency, but it changes freshness and invalidation behavior.
 
 For each cache, document:
+
 - what is cached and under which key;
 - whether the response is public or user-specific;
 - freshness or TTL expectations;
@@ -183,11 +186,12 @@ Identify trust boundaries and data flows before implementation. For every bounda
 
 In AEM, include Dispatcher filters, publish-tier exposure, Sling servlet registration, service-user mappings, repository ACLs, and cloud configuration boundaries in the threat model.
 
-## 8. Capacity, scaling, and backpressure
+## 8. Capacity, scaling, and overload control
 
 Scale the constrained resource, not the most visible component. CPU, heap, repository query cost, connection pools, downstream quotas, and queue depth can each become the bottleneck.
 
 Ask:
+
 - Can work be cached or eliminated before adding capacity?
 - Is the workload CPU-bound or waiting on I/O?
 - Are concurrency and queues bounded?
@@ -196,13 +200,14 @@ Ask:
 - What signal triggers scale-out, and how quickly can it respond?
 - What happens when the maximum capacity is reached?
 
-Backpressure means the system has an explicit response when it cannot safely accept more work. Options include rejecting requests early, queueing within a limit, applying per-client quotas, shedding noncritical work, or returning a controlled retryable response. An unbounded queue is not resilience; it often postpones failure until resources are exhausted.
+overload control means the system has an explicit response when it cannot safely accept more work. Options include rejecting requests early, queueing within a limit, applying per-client quotas, shedding noncritical work, or returning a controlled retryable response. An unbounded queue is not resilience; it often postpones failure until resources are exhausted.
 
 ## 9. Observability and operability
 
 A design is incomplete if operators cannot tell whether it is healthy or how to recover it.
 
 Define:
+
 - **Metrics:** request rate, latency percentiles, error rate, saturation, queue depth, cache hit ratio, dependency latency, and retry counts.
 - **Logs:** structured events with safe context and correlation IDs.
 - **Traces:** end-to-end spans across meaningful service boundaries when tracing is available.
@@ -252,6 +257,7 @@ The important result is not a specific technology stack. It is an explicit contr
 Use an ADR when a decision has meaningful long-term consequences, multiple credible options, or future teams will need to understand the rationale.
 
 A useful ADR includes:
+
 - context and problem;
 - requirements and constraints;
 - options considered;
@@ -270,7 +276,7 @@ Record the decision, not a sales pitch. An ADR should explain why alternatives w
 - [ ] Component boundaries and authoritative data ownership are clear.
 - [ ] Network boundaries have contracts, authentication, timeouts, and failure behavior.
 - [ ] Consistency, freshness, cache keys, and invalidation are defined.
-- [ ] Retry, idempotency, backpressure, and partial failure are addressed.
+- [ ] Retry, idempotency, overload control, and partial failure are addressed.
 - [ ] Threat boundaries and least-privilege access are reviewed.
 - [ ] Metrics, logs, traces, alerts, runbooks, and service ownership are defined.
 - [ ] Deployment, compatibility, migration, and rollback are safe.
