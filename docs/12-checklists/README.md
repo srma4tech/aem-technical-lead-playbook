@@ -127,7 +127,7 @@ Related chapter: [Security](../05-security/README.md).
 - [ ] The live user-facing result is verified.
 - [ ] Dashboards and inventory status are updated only after evidence is available.
 
-Related guidance: [Release Strategy](../../RELEASES.md).
+Related guidance: [Release Strategy](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md).
 
 ## 9. Incident response checklist
 
@@ -179,7 +179,7 @@ A checklist should have a clear purpose, owner, trigger, and evidence expectatio
 - [Architecture Review Checklist](../checklists/architecture-review.md)
 - [Documentation Review Checklist](../checklists/documentation-review.md)
 - [Chapter Inventory and Definition of Done](../chapter-inventory.md)
-- [Release Strategy](../../RELEASES.md)
+- [Release Strategy](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md)
 - [Roadmap](../ROADMAP.md)
 
 ## Completion criteria
