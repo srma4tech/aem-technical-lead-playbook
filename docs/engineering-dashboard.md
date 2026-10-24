@@ -40,7 +40,7 @@ The repository is evolving from a strong documentation foundation into an engine
 - [Understanding AEM Internals](20-understanding-aem-internals/README.md)
 - [Repository Foundations and Governance](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/README.md)
 
-### Chapters with substantive content merged; publication review pending
+### Chapters deployed to Pages; final editorial/source audit pending
 
 - [AEM Core](02-aem-core/README.md)
 - [Dispatcher](03-dispatcher/README.md)
