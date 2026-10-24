@@ -80,6 +80,14 @@ extra:
     - technical leadership
     - system design
     - software architecture
+    - Adobe Experience Manager security
+    - AEM Dispatcher and CDN caching
+    - AEM as a Cloud Service migration
+    - Java concurrency and resilience
+    - enterprise design patterns
+    - production support and incident response
+    - architecture decision records
+    - technical lead interview preparation
   social_preview: assets/images/social-preview.svg
   social:
     - icon: fontawesome/brands/github
