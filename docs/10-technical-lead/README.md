@@ -20,6 +20,7 @@ This chapter is for senior engineers, technical leads, and aspiring architects w
 Activity is not the same as progress. A large number of tickets, meetings, or code changes does not prove that the system is safer, faster, or more useful.
 
 Start by asking:
+
 - What user or business outcome are we trying to improve?
 - How will we know it worked?
 - What constraints must remain true?
@@ -35,6 +36,7 @@ Agree on acceptance criteria before implementation when possible. This reduces r
 Teams make better decisions when they understand the problem, constraints, and current state. Do not assume everyone has the same mental model.
 
 A useful technical brief states:
+
 - the problem and who is affected;
 - current behavior and evidence;
 - desired outcome and non-goals;
@@ -51,6 +53,7 @@ When evidence is incomplete, say so. Separate confirmed facts from hypotheses an
 Not every decision needs a meeting, and not every decision belongs to the lead.
 
 Use the smallest decision process that fits the impact and reversibility:
+
 - A low-risk, reversible implementation choice can usually be made by the engineer doing the work.
 - A cross-component contract needs agreement from the teams that own the contract.
 - A security, data, availability, or irreversible architecture decision deserves explicit review and recorded rationale.
@@ -59,6 +62,7 @@ Use the smallest decision process that fits the impact and reversibility:
 ### A practical decision record
 
 For consequential decisions, record:
+
 1. Context and problem.
 2. Requirements and constraints.
 3. Options considered.
@@ -78,6 +82,7 @@ A lead who approves every small choice becomes a queue. Set guardrails, define e
 A delivery plan should show the sequence that makes uncertainty and integration risk visible. A list of optimistic dates is not a plan.
 
 Identify:
+
 - work that can proceed independently;
 - dependencies that control the critical path;
 - external teams or vendors whose commitments matter;
@@ -95,6 +100,7 @@ Break work into reviewable increments. Smaller increments expose problems earlie
 Risk is the combination of likelihood, impact, and the ability to detect or recover from failure. A practical risk register is short, owned, and updated when evidence changes.
 
 For each significant risk, record:
+
 - what could happen;
 - who or what would be affected;
 - current evidence and uncertainty;
@@ -110,6 +116,7 @@ Do not hide a risk by labeling it “low” without evidence. If a decision is b
 Delegation is not simply assigning a ticket. Give the person context, the outcome, constraints, decision authority, support path, and review checkpoints.
 
 A good delegation contract answers:
+
 - What outcome is expected?
 - Which constraints are non-negotiable?
 - What can the engineer decide independently?
@@ -126,6 +133,7 @@ Do not delegate accountability for a decision while withholding the authority ne
 Code review protects correctness and shares system knowledge. It should not become a contest of personal style.
 
 Review in this order:
+
 1. Does the change solve the intended problem?
 2. Are security, data integrity, and authorization preserved?
 3. Are failure modes, timeouts, retries, and resource lifecycles safe?
@@ -145,6 +153,7 @@ Technical leaders translate between different kinds of concern without distortin
 For engineering audiences, communicate contracts, implementation constraints, failure modes, and evidence. For business audiences, explain user impact, delivery choices, risk, and consequences in direct language. Avoid hiding behind acronyms or using complexity to win an argument.
 
 A useful status update contains:
+
 - **Outcome:** what is complete or changed.
 - **Evidence:** what was tested or observed.
 - **Risk:** what remains uncertain or blocked.
@@ -157,6 +166,7 @@ When plans change, communicate early. Explain the new evidence, the impact on sc
 During an incident, the priorities are user safety, service restoration, accurate communication, and evidence preservation. Blame does not restore service.
 
 A calm incident lead:
+
 - establishes impact, severity, and a clear incident owner;
 - separates mitigation from root-cause investigation;
 - assigns parallel tasks with explicit owners;
@@ -172,6 +182,7 @@ After recovery, conduct a blameless review focused on how the system and process
 The goal of mentoring is to improve another engineer's judgment and independence, not to make them copy the lead's preferences.
 
 Useful practices include:
+
 - explain the why behind decisions;
 - ask the engineer to present options and trade-offs;
 - pair on difficult or unfamiliar work;
@@ -189,6 +200,7 @@ A team cannot deliver reliably if every improvement is deferred in favor of feat
 Track recurring friction such as flaky tests, long build times, repeated incidents, unclear ownership, dependency vulnerabilities, and difficult releases. Prioritize improvements by impact and frequency rather than treating all technical debt as equally urgent.
 
 Reserve capacity for:
+
 - reliability and security work;
 - dependency and platform upgrades;
 - test and build automation;
