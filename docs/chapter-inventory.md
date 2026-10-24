@@ -40,18 +40,9 @@ This inventory was refreshed from the current `main` branch file tree on 2026-10
 - **Engineering Checklists** — substantive checklist library merged in PR #56, covering change readiness, code review, AEM, Dispatcher, performance, security, integrations, releases, incidents, and documentation. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Reference Library** — curated authoritative source index merged in PR #57 for AEM, Java, architecture, reliability, security, and release governance. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 
-### Scaffold-only chapter directories
+### Remaining structural audit
 
-Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
-
-- **Production Support** — add incident response, diagnostics, mitigation, recovery, and postmortems.
-- **Interview Guide** — add a role/topic map, scenario questions, model answers, and evaluation rubrics.
-- **Case Studies** — add evidence-based, anonymized scenarios with outcomes and lessons.
-- **Reference** — curate authoritative sources and map them to relevant chapters.
-
-### Requires a deeper inventory
-
-- **Engineering Checklists** — the chapter directory currently has a landing-page README; separate contributor checklists exist elsewhere. Inventory the existing checklists and consolidate around real decisions.
+The primary learning-path chapters now have substantive content in their chapter directories. This does not mean every chapter is fully editorially reviewed or verified on the live site. The remaining release work is the chapter-by-chapter technical/source audit, strict site build, deployment verification, and live-page review.
 
 ## Chapter definition of done
 
