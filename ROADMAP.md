@@ -23,16 +23,17 @@ timeline
 
 ## Milestones
 
+The version labels below describe the intended release sequence. They are not evidence that a matching Git tag or GitHub Release exists; see [Release Strategy](RELEASES.md) for the verified tag/release audit.
+
 - **v0.1 — Repository Foundation:** Complete
 - **v0.2 — AEM Core:** In review; substantive draft merged, final publication/editorial verification pending.
-- **v0.3 — Understanding AEM Internals:** Complete
+- **v0.3 — Understanding AEM Internals:** Content milestone complete; matching v0.3.0 Git tag and GitHub Release not found in the release audit.
 - **v0.4 — Dispatcher:** In review; substantive chapter merged, final publication/editorial verification pending.
 - **v0.5 — Performance:** In review; substantive chapter merged in PR #41, final publication/editorial verification pending.
 - **v0.6 — Security:** In review; substantive chapter merged in PR #43, final publication/editorial verification pending.
 - **v0.7 — AEM as a Cloud Service:** In review; substantive chapter merged in PR #44, final publication/editorial verification pending.
 - **v0.8 — Enterprise Java:** In review; substantive chapter merged in PR #46, final publication/editorial verification pending.
 - **Design Patterns:** Substantive chapter merged in PR #48; final publication/editorial verification pending.
-- **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
 - **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
 - **v0.9 — Technical Leadership:** Substantive chapter merged in PR #51; final publication/editorial verification pending.
 - **Production Support:** Substantive chapter merged in PR #53; final publication/editorial verification pending.
