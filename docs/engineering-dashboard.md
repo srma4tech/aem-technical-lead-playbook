@@ -5,8 +5,8 @@ This dashboard is the central status surface for the AEM Technical Lead Playbook
 
 ## Repository Health
 
-!!! warning "Baseline reconciliation in progress"
-The dashboard records `v0.4.0` and 74% overall progress, while `CHANGELOG.md` and the Release Dashboard identify `v0.3.0` as the latest documented release. The release tag and GitHub release evidence must be checked before choosing a canonical version. Overall and role-based progress figures are provisional until a chapter-level acceptance inventory supports them.
+!!! warning "Release evidence pending"
+The last documented changelog version is `v0.3.0`, while this dashboard previously recorded `v0.4.0`. Canonical Git tag and GitHub Release evidence still needs verification. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
 
 The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
 
@@ -22,15 +22,12 @@ The repository is evolving from a strong documentation foundation into an engine
 | Open Source Readiness      | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.              |
 | Community Growth           | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                  |
 
-## Current Release
+## Release Evidence
 
-| Item                      | Value                                                                                                                            |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Current Version           | `v0.4.0`                                                                                                                         |
-| Release Date              | `2026-08-01`                                                                                                                     |
-| Latest Completed Features | Homepage experience refresh, chapter landing-page upgrades, release dashboard expansion, and stricter docs validation alignment. |
-| Upcoming Release          | `v0.5.0`                                                                                                                         |
-| Release Notes             | Delivery quality, academic UX, documentation navigation improvements, and a more polished project status experience.             |
+- Last documented changelog version: `v0.3.0`.
+- Canonical Git tag and GitHub Release: verification pending.
+- No newer release version is declared in this dashboard until tag/release evidence is confirmed.
+- Current chapter-level state: substantive content is merged across the primary learning paths; final editorial review, strict site build, and live-page verification remain required.
 
 ## Learning Progress
 
@@ -42,7 +39,7 @@ The repository is evolving from a strong documentation foundation into an engine
 - [Understanding AEM Internals](20-understanding-aem-internals/README.md)
 - [Repository Foundations and Governance](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/README.md)
 
-### Chapters currently under development
+### Chapters with substantive content merged; publication review pending
 
 - [AEM Core](02-aem-core/README.md)
 - [Dispatcher](03-dispatcher/README.md)
@@ -59,18 +56,15 @@ The repository is evolving from a strong documentation foundation into an engine
 - [Case Studies](14-case-studies/README.md)
 - [Reference](15-reference/README.md)
 
-### Planned chapters
+### Remaining v1.0 readiness work
 
-- Advanced enterprise architecture playbooks
-- Public ready-to-ship release and maintainer enablement
-- Broader contributor-led editorial maturity model
+- Technical and editorial audit across all substantive chapters
+- Verify strict MkDocs build and GitHub Pages deployment
+- Inspect live pages, navigation, responsive layout, and key links
+- Confirm canonical release tag and GitHub Release evidence
+- Resolve any remaining accessibility, source, or content-quality gaps
 
-```mermaid
-pie title Learning Progress Mix
-    "Completed" : 5
-    "In Progress" : 14
-    "Planned" : 3
-```
+Progress percentages are intentionally omitted until the chapter inventory supports a defensible acceptance-based calculation.
 
 ## Repository Statistics
 
@@ -78,16 +72,7 @@ These figures represent the current repository structure and documentation asset
 
 | Metric                | Count |
 | --------------------- | ----: |
-| Markdown Pages        |    61 |
-| Architecture Diagrams |     8 |
-| Mermaid Diagrams      |     0 |
-| Templates             |     9 |
-| Checklists            |    10 |
-| ADRs                  |     7 |
-| Interview Questions   |     1 |
-| Production Stories    |     0 |
-| Examples              |     0 |
-| Cross References      |    61 |
+Counts are not repeated here until they can be regenerated from the current repository tree; use the chapter inventory and repository search for current coverage.
 
 !!! note "Maintenance note"
 Repository statistics should be updated as the project grows. The current counts represent the present documentation and asset inventory used to support the handbook.
