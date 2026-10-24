@@ -70,12 +70,10 @@ Progress percentages are intentionally omitted until the chapter inventory suppo
 
 These figures represent the current repository structure and documentation asset breadth.
 
-| Metric                | Count |
-| --------------------- | ----: |
-Counts are not repeated here until they can be regenerated from the current repository tree; use the chapter inventory and repository search for current coverage.
+Repository counts are intentionally omitted until they can be regenerated from the current repository tree; use the chapter inventory and repository search for current coverage.
 
 !!! note "Maintenance note"
-Repository statistics should be updated as the project grows. The current counts represent the present documentation and asset inventory used to support the handbook.
+Repository statistics should be regenerated from the repository tree when needed; do not carry forward stale counts.
 
 ## Learning Paths
 
