@@ -2,11 +2,11 @@
 
 ## Current release
 
-The current release recorded here is consistent with `CHANGELOG.md`. The Engineering Dashboard separately records `v0.4.0`; that discrepancy must be checked against the repository's release tags and GitHub releases before the next release is declared.
+The last documented changelog release is `v0.3.0`, but the canonical Git tag and GitHub Release evidence have not yet been independently verified. The Engineering Dashboard previously recorded `v0.4.0`; do not treat either dashboard value as the canonical release until repository tag/release evidence is confirmed.
 
-- Version: v0.3.0
+- Last documented changelog version: v0.3.0
 - Focus: Understanding AEM Internals
-- Status: Released
+- Status: Documentation says released; canonical tag/release verification pending
 
 ## Completed chapters
 
@@ -21,13 +21,13 @@ The current release recorded here is consistent with `CHANGELOG.md`. The Enginee
 
 ### Planned next releases
 
-- v0.4 — Dispatcher
-- v0.5 — Performance
-- v0.6 — Security
-- v0.7 — AEM as a Cloud Service
-- v0.8 — Enterprise Java
-- v0.9 — Technical Leadership
-- v1.0 — Public release
+- v0.4 — Dispatcher: substantive content merged; publication/editorial verification pending
+- v0.5 — Performance: substantive content merged; publication/editorial verification pending
+- v0.6 — Security: substantive content merged; publication/editorial verification pending
+- v0.7 — AEM as a Cloud Service: substantive content merged; publication/editorial verification pending
+- v0.8 — Enterprise Java: substantive content merged; publication/editorial verification pending
+- v0.9 — Technical Leadership: substantive content merged; publication/editorial verification pending
+- v1.0 — Public release: full editorial audit, release evidence, and deployment verification required
 
 ## Learning progress
 
