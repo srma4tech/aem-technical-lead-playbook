@@ -10,17 +10,17 @@ The 2026-10-24 audit found only `v0.1.1` and `v0.2.0` Git tags, both pointing to
 
 The documentation platform is deployed and its latest recorded CI/Pages run passed. The remaining work is acceptance-oriented: chapter-by-chapter technical and source review, a browser smoke check, and reconciliation of the formal release tag/release record.
 
-| Area                        | Status      | Signal                                                                                                                     |
-| --------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Documentation Coverage      | Strong      | Handbook structure, learning topology, and navigation are in place.                                                       |
+| Area                        | Status      | Signal                                                                                                                                      |
+| --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Documentation Coverage      | Strong      | Handbook structure, learning topology, and navigation are in place.                                                                         |
 | Repository Quality          | Strong      | Formatting, linting, spell checking, link validation, and strict MkDocs validation are part of the quality bar; latest recorded run passed. |
-| Architecture Documentation  | Strong      | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained.                    |
-| Learning Content             | In Progress | Substantive content is merged across the primary learning paths; final editorial/source audit remains.                    |
-| Interview Readiness          | In Progress | Interview material is available for practical senior-level preparation; review remains open.                               |
-| Technical Leadership        | In Progress | Leadership and production stewardship chapters are deployed; editorial review remains open.                               |
-| Production Engineering      | In Progress | Operational reasoning and support-readiness material is available; editorial review remains open.                          |
-| Open Source Readiness       | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.                     |
-| Community Growth             | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                         |
+| Architecture Documentation  | Strong      | ADRs, folder structure guidance, and documentation architecture patterns are documented and maintained.                                     |
+| Learning Content            | In Progress | Substantive content is merged across the primary learning paths; final editorial/source audit remains.                                      |
+| Interview Readiness         | In Progress | Interview material is available for practical senior-level preparation; review remains open.                                                |
+| Technical Leadership        | In Progress | Leadership and production stewardship chapters are deployed; editorial review remains open.                                                 |
+| Production Engineering      | In Progress | Operational reasoning and support-readiness material is available; editorial review remains open.                                           |
+| Open Source Readiness       | Strong      | Governance, contribution guidance, release strategy, and repository ownership signals are established.                                      |
+| Community Growth            | In Progress | The project is positioned for broader maintainership, contributor onboarding, and public adoption.                                          |
 
 ## Deployment and Release Evidence
 
@@ -132,12 +132,12 @@ The goal is to support asynchronous coaching and guided learning while preservin
 
 ## Open Source
 
-| Area              | Direction                                                                                                                           |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Area              | Direction                                                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | How to Contribute | Use [CONTRIBUTING.md](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/CONTRIBUTING.md) and the contributor templates. |
-| Open Issues       | Monitor the repository for roadmap alignment and documentation improvements.                                                        |
-| Future Milestones | Advance chapter maturity, strengthen editorial review, and scale contributor readiness.                                             |
-| Community Goals   | Build a trusted, high-signal technical learning platform for AEM and engineering leadership.                                        |
+| Open Issues       | Monitor the repository for roadmap alignment and documentation improvements.                                                             |
+| Future Milestones | Advance chapter maturity, strengthen editorial review, and scale contributor readiness.                                                  |
+| Community Goals   | Build a trusted, high-signal technical learning platform for AEM and engineering leadership.                                             |
 
 ## Related Pages
 
