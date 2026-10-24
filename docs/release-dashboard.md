@@ -2,11 +2,12 @@
 
 ## Current release
 
-The last documented changelog release is `v0.3.0`, but the canonical Git tag and GitHub Release evidence have not yet been independently verified. The Engineering Dashboard previously recorded `v0.4.0`; do not treat either dashboard value as the canonical release until repository tag/release evidence is confirmed.
+The release audit on 2026-10-24 found only `v0.1.1` and `v0.2.0` Git tags, both pointing to commit `c78d41c1ddf7038034a5e99b35f0aac72a508217`, and no GitHub Releases. The changelog's `v0.3.0` entry and the former Engineering Dashboard's `v0.4.0` claim are not backed by matching tag/release records.
 
-- Last documented changelog version: v0.3.0
-- Focus: Understanding AEM Internals
-- Status: Documentation says released; canonical tag/release verification pending
+- Last documented changelog entry: v0.3.0
+- Verified Git tags: v0.1.1 and v0.2.0 (both point to the same commit)
+- GitHub Releases: none found
+- Status: release metadata reconciliation required; no canonical current release declared
 
 ## Completed chapters
 
