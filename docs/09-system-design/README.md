@@ -157,15 +157,13 @@ Distributed systems fail partially. A dependency may be slow rather than complet
 
 Use a failure matrix to make behavior explicit:
 
-| Failure | Design question |
-| --- | --- |
-| Dependency timeout | Is there a bounded fallback, or should the request fail? |
-| Rate limit | Should the caller queue, back off, or return a controlled response? |
-| Invalid response | Reject and alert, or can a safe partial result be used? |
-| Duplicate event | How is idempotency enforced? |
-| Partial write | What is the compensation or reconciliation path? |
-| Cache purge failure | How is stale content detected and corrected? |
-| Region or service outage | What recovery objective and failover model apply? |
+- **Dependency timeout:** Is there a bounded fallback, or should the request fail?
+- **Rate limit:** Should the caller queue, back off, or return a controlled response?
+- **Invalid response:** Reject and alert, or can a safe partial result be used?
+- **Duplicate event:** How is idempotency enforced?
+- **Partial write:** What is the compensation or reconciliation path?
+- **Cache purge failure:** How is stale content detected and corrected?
+- **Region or service outage:** What recovery objective and failover model apply?
 
 Use timeouts, bounded retries, backoff with jitter, concurrency limits, and circuit breakers where they address an evidenced failure mode. Retries can amplify an outage. Avoid retrying non-idempotent operations without a reliable deduplication mechanism.
 
