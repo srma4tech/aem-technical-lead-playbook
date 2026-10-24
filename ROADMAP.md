@@ -26,21 +26,21 @@ timeline
 The version labels below describe the intended release sequence. They are not evidence that a matching Git tag or GitHub Release exists; see [Release Strategy](RELEASES.md) for the verified tag/release audit.
 
 - **v0.1 — Repository Foundation:** Complete
-- **v0.2 — AEM Core:** In review; substantive draft merged, final publication/editorial verification pending.
+- **v0.2 — AEM Core:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
 - **v0.3 — Understanding AEM Internals:** Content milestone complete; matching v0.3.0 Git tag and GitHub Release not found in the release audit.
-- **v0.4 — Dispatcher:** In review; substantive chapter merged, final publication/editorial verification pending.
-- **v0.5 — Performance:** In review; substantive chapter merged in PR #41, final publication/editorial verification pending.
-- **v0.6 — Security:** In review; substantive chapter merged in PR #43, final publication/editorial verification pending.
-- **v0.7 — AEM as a Cloud Service:** In review; substantive chapter merged in PR #44, final publication/editorial verification pending.
-- **v0.8 — Enterprise Java:** In review; substantive chapter merged in PR #46, final publication/editorial verification pending.
-- **Design Patterns:** Substantive chapter merged in PR #48; final publication/editorial verification pending.
-- **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
-- **v0.9 — Technical Leadership:** Substantive chapter merged in PR #51; final publication/editorial verification pending.
-- **Production Support:** Substantive chapter merged in PR #53; final publication/editorial verification pending.
-- **Interview Guide:** Substantive chapter merged in PR #54; final publication/editorial verification pending.
-- **Case Studies:** Substantive illustrative case-study chapter merged in PR #55; final publication/editorial verification pending.
-- **Engineering Checklists:** Substantive checklist library merged in PR #56; final publication/editorial verification pending.
-- **Reference Library:** Curated source index merged in PR #57; final publication/editorial verification pending.
+- **v0.4 — Dispatcher:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
+- **v0.5 — Performance:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
+- **v0.6 — Security:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
+- **v0.7 — AEM as a Cloud Service:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
+- **v0.8 — Enterprise Java:** Published; substantive chapter is deployed to Pages, final editorial/source audit pending.
+- **Design Patterns:** Published to Pages; final editorial/source audit pending.
+- **System Design:** Published to Pages; final editorial/source audit pending.
+- **v0.9 — Technical Leadership:** Published to Pages; final editorial/source audit pending.
+- **Production Support:** Published to Pages; final editorial/source audit pending.
+- **Interview Guide:** Published to Pages; final editorial/source audit pending.
+- **Case Studies:** Published to Pages; final editorial/source audit pending.
+- **Engineering Checklists:** Published to Pages; final editorial/source audit pending.
+- **Reference Library:** Published to Pages; final editorial/source audit pending.
 - **v1.0 — Public Release:** Planned
 
 Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
@@ -89,7 +89,7 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, Design Patterns, System Design, Technical Leadership, Production Support, Interview Guide, Case Studies, Engineering Checklists, and Reference Library have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
+Status note: the substantive chapters across AEM, enterprise Java, architecture, leadership, production support, interviews, case studies, checklists, and references are deployed to GitHub Pages. The strict build and deployment succeeded on commit `9d3a805c4752f5accb719a634906066f7f6df702`; final browser smoke checks and editorial/source audit remain pending. Release tag/GitHub Release history is separately documented and remains unresolved.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy

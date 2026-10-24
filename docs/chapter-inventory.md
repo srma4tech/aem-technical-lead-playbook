@@ -4,7 +4,8 @@ This inventory is the working baseline for finishing the AEM Technical Lead Play
 
 ## Status definitions
 
-- **Published** — substantive content is available in the documentation site and has passed the applicable release checks.
+- **Published** — substantive content is available in the documentation site and has passed the applicable release checks and the full chapter definition of done.
+- **Published; audit pending** — substantive content has been built and deployed to Pages and required CI checks passed, but the full editorial/source audit or final browser smoke check remains open. Do not count this status as fully accepted for v1.0.
 - **Scaffold only** — the directory contains a landing-page outline, but the intended learning material is not yet present in that chapter directory.
 - **Audit required** — files exist, but their technical depth, references, examples, and review evidence have not yet been assessed.
 - **Planned** — work has not started or has no accepted implementation yet.
@@ -14,7 +15,7 @@ A chapter can be marked Published only after meeting the [definition of done](#c
 
 ## Observed inventory
 
-This inventory was refreshed from the current `main` branch file tree on 2026-10-24. File presence and approximate byte sizes were inspected; this is a structural baseline, not a full technical correctness review of every published page.
+This inventory was refreshed from the current `main` branch file tree on 2026-10-24. The strict MkDocs build and GitHub Pages deployment succeeded for commit `9d3a805c4752f5accb719a634906066f7f6df702`; the generated Pages artifact contains the new System Design, Technical Leadership, Production Support, Checklists, Interview Guide, Case Studies, and Reference pages. Final browser smoke checks and editorial/source audit remain open.
 
 ### Published or curated
 
@@ -23,9 +24,9 @@ This inventory was refreshed from the current `main` branch file tree on 2026-10
 - **Learning Roadmap** — role-based paths, sequence, and practice checkpoints. Published; updated in PR #34. Keep planned versus published areas explicit.
 - **Understanding AEM Internals** — overview plus 15 chapters. Published; audit required. Review technical accuracy and source coverage before v1.0.
 
-### Substantive content merged; final publication review pending
+### Published; final editorial/source audit pending
 
-- **AEM Core** — substantive architecture chapter merged in PR #37, including platform layers, content modelling, component/service boundaries, JCR/Oak, security, performance, AEM 6.5 versus Cloud Service considerations, a worked integration scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **AEM Core** — substantive architecture chapter merged in PR #37, including platform layers, content modelling, component/service boundaries, JCR/Oak, security, performance, AEM 6.5 versus Cloud Service considerations, a worked integration scenario, and Adobe references. The strict documentation build and Pages deployment succeeded for commit `9d3a805c4752f5accb719a634906066f7f6df702`; complete the final browser smoke check and editorial/source audit before v1.0 sign-off.
 - **Dispatcher** — substantive engineering chapter merged in PR #39. Covers request flow, filter security, cache eligibility, invalidation, CDN interactions, AEM as a Cloud Service differences, troubleshooting, a worked 403 scenario, and Adobe references. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Performance** — substantive engineering chapter merged in PR #41. Covers measurable objectives, test design, percentiles and saturation, bottleneck isolation across delivery/application/repository/dependency layers, optimization trade-offs, AEM as a Cloud Service caveats, incident workflow, and regression prevention. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Security** — substantive engineering chapter merged in PR #43. Covers threat modelling, least privilege, repository permissions, public delivery, custom endpoint safety, secrets, dependency hygiene, incident readiness, and security review. Verify the live site and complete the editorial/source audit before marking the milestone complete.
