@@ -1,12 +1,12 @@
 # Engineering Dashboard
 
 !!! tip "Project status"
-This dashboard is the central status surface for the AEM Technical Lead Playbook. It highlights project maturity, learning progress, release movement, and platform readiness without repeating the full handbook content.
+    This dashboard is the central status surface for the AEM Technical Lead Playbook. It highlights project maturity, learning progress, release movement, and platform readiness without repeating the full handbook content.
 
 ## Repository Health
 
 !!! warning "Release evidence pending"
-The 2026-10-24 audit found only `v0.1.1` and `v0.2.0` Git tags, both pointing to the same commit (`c78d41c1ddf7038034a5e99b35f0aac72a508217`), and no GitHub Releases. The changelog's `v0.3.0` and former dashboard's `v0.4.0` claims are not backed by matching release records. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
+    The 2026-10-24 audit found only `v0.1.1` and `v0.2.0` Git tags, both pointing to the same commit (`c78d41c1ddf7038034a5e99b35f0aac72a508217`), and no GitHub Releases. The changelog's `v0.3.0` and former dashboard's `v0.4.0` claims are not backed by matching release records. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
 
 The documentation platform is deployed and its latest recorded CI/Pages run passed. The remaining work is acceptance-oriented: chapter-by-chapter technical and source review, a browser smoke check, and reconciliation of the formal release tag/release record.
 
@@ -78,7 +78,7 @@ Progress percentages are intentionally omitted until the chapter inventory suppo
 Repository counts are intentionally omitted until they can be regenerated from the current repository tree; use the chapter inventory and repository search for current coverage.
 
 !!! note "Maintenance note"
-Repository statistics should be regenerated from the repository tree when needed; do not carry forward stale counts.
+    Repository statistics should be regenerated from the repository tree when needed; do not carry forward stale counts.
 
 ## Learning Paths
 
@@ -119,7 +119,7 @@ timeline
 ## Engineering Mentor AI
 
 !!! warning "Coming Soon"
-This section is reserved for future AI-driven coaching and engineering guidance.
+    This section is reserved for future AI-driven coaching and engineering guidance.
 
 Planned capabilities:
 
