@@ -33,7 +33,8 @@ timeline
 - **v0.7 — AEM as a Cloud Service:** In review; substantive chapter merged in PR #44, final publication/editorial verification pending.
 - **v0.8 — Enterprise Java:** In review; substantive chapter merged in PR #46, final publication/editorial verification pending.
 - **Design Patterns:** Substantive chapter merged in PR #48; final publication/editorial verification pending.
-- **v0.9 — Technical Leadership:** Planned
+- **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
+- **v0.9 — Technical Leadership:** Substantive chapter merged in PR #51; final publication/editorial verification pending.
 - **v1.0 — Public Release:** Planned
 
 Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
@@ -82,7 +83,7 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, and Design Patterns have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
+Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, Design Patterns, System Design, and Technical Leadership have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
@@ -94,11 +95,14 @@ Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatche
 - [ ] AEM as a Cloud Service — substantive chapter merged in PR #44; final publication/editorial verification pending
 - [ ] Enterprise Java — substantive chapter merged in PR #46; final publication/editorial verification pending
 - [ ] Design Patterns — substantive chapter merged in PR #48; final publication/editorial verification pending
+- [ ] System Design — substantive chapter merged in PR #50; final publication/editorial verification pending
+- [ ] Technical Leadership — substantive chapter merged in PR #51; final publication/editorial verification pending
 
 ## Phase 3 — Enterprise Practice
 
-- [ ] AEM as a Cloud Service and enterprise Java
-- [ ] Design patterns, system design, and production support
+- [x] AEM as a Cloud Service and enterprise Java — substantive chapters merged; publication verification pending
+- [x] Design patterns and system design — substantive chapters merged; publication verification pending
+- [ ] Production support — substantive chapter still required
 
 ## Phase 4 — Leadership and Public Readiness
 

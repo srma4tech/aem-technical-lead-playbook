@@ -32,13 +32,13 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 - **AEM as a Cloud Service** — substantive engineering chapter merged in PR #44. Covers service tiers and ownership boundaries, Cloud Manager delivery, configuration, repository design, delivery caching, performance, integrations, migration, troubleshooting, and go-live readiness. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Enterprise Java** — substantive engineering chapter merged in PR #46. Covers service boundaries, collections, error contracts, concurrency, ExecutorService, CompletableFuture, resilience, integration design, observability, testing, and AEM-specific lifecycle constraints. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Design Patterns** — substantive engineering chapter merged in PR #48. Covers context-driven pattern selection, Strategy, Adapter, Decorator, Factory, Builder, Template Method, Observer, AEM-specific patterns, anti-patterns, and review criteria. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **System Design** — substantive engineering chapter merged in PR #50. Covers requirements, workload modelling, boundaries, communication patterns, data ownership, caching, resilience, security, scaling, observability, rollout, and ADRs. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Technical Leadership** — substantive engineering chapter merged in PR #51. Covers outcome framing, decision quality, delivery risk, delegation, code review, stakeholder communication, incident leadership, mentoring, and sustainable engineering. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 
 ### Scaffold-only chapter directories
 
 Each of the following directories currently contains only its landing-page `README.md`; the substantive chapter content still needs to be written.
 
-- **System Design** — add requirements, architecture, quality attributes, and worked designs.
-- **Technical Leadership** — add leadership practices, decision records, reviews, and delivery governance.
 - **Production Support** — add incident response, diagnostics, mitigation, recovery, and postmortems.
 - **Interview Guide** — add a role/topic map, scenario questions, model answers, and evaluation rubrics.
 - **Case Studies** — add evidence-based, anonymized scenarios with outcomes and lessons.
