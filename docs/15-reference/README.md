@@ -98,7 +98,7 @@ For high-impact claims, prefer a primary source and record the tested version or
 - [Chapter Inventory and Definition of Done](../chapter-inventory.md)
 - [Documentation Review Checklist](../checklists/documentation-review.md)
 - [Engineering Checklists](../12-checklists/README.md)
-- [Release Strategy](../../RELEASES.md)
+- [Release Strategy](https://github.com/srma4tech/aem-technical-lead-playbook/blob/main/RELEASES.md)
 - [Roadmap](../ROADMAP.md)
 
 ## Completion criteria
