@@ -54,7 +54,7 @@ Use incident and reliability practices that fit the organization's service owner
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/) — awareness of major web application risk categories.
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) — practical implementation guidance.
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) — risk-management framework.
-- [CISA Secure by Design](https://www.cisa.gov/securebydesign) — product security principles.
+- [Secure by Design guidance from the US Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/securebydesign) — product security principles.
 
 For AEM-specific access control, Dispatcher exposure, repository permissions, and cloud configuration, prioritize the relevant Adobe documentation alongside general security standards.
 
