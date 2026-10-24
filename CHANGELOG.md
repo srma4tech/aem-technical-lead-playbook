@@ -6,6 +6,8 @@ Notable changes are recorded here using Keep a Changelog conventions and Semanti
 
 ## [0.3.0] - 2026-07-18
 
+> Release evidence note (2026-10-24): this changelog entry is documented, but no matching `v0.3.0` Git tag or GitHub Release was found. Treat it as a recorded change milestone, not independently verified release evidence, until the release record is reconciled.
+
 ### Added in v0.3.0
 
 - Understanding AEM Internals handbook, covering request processing from Dispatcher through Sling, Oak, HTL, and production troubleshooting.
