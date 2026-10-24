@@ -16,10 +16,9 @@ timeline
                     : v0.5 Performance
                     : v0.6 Security
                     : v0.7 AEMaaCS
-    Enterprise Practice : v0.7 Enterprise Java
-                        : v0.8 Technical Leadership
-    Public Readiness : v0.9 Interview Handbook
-                     : v1.0 Public Release
+    Enterprise Practice : v0.8 Enterprise Java
+    Leadership : v0.9 Technical Leadership
+    Public Readiness : v1.0 Public Release
 ```
 
 ## Milestones
@@ -34,7 +33,13 @@ timeline
 - **v0.8 — Enterprise Java:** In review; substantive chapter merged in PR #46, final publication/editorial verification pending.
 - **Design Patterns:** Substantive chapter merged in PR #48; final publication/editorial verification pending.
 - **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
+- **System Design:** Substantive chapter merged in PR #50; final publication/editorial verification pending.
 - **v0.9 — Technical Leadership:** Substantive chapter merged in PR #51; final publication/editorial verification pending.
+- **Production Support:** Substantive chapter merged in PR #53; final publication/editorial verification pending.
+- **Interview Guide:** Substantive chapter merged in PR #54; final publication/editorial verification pending.
+- **Case Studies:** Substantive illustrative case-study chapter merged in PR #55; final publication/editorial verification pending.
+- **Engineering Checklists:** Substantive checklist library merged in PR #56; final publication/editorial verification pending.
+- **Reference Library:** Curated source index merged in PR #57; final publication/editorial verification pending.
 - **v1.0 — Public Release:** Planned
 
 Release semantics and acceptance flow are defined in [RELEASES.md](RELEASES.md).
@@ -83,7 +88,7 @@ flowchart LR
 
 ## Phase 2 — Core Learning Paths
 
-Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, Design Patterns, System Design, and Technical Leadership have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
+Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatcher, Performance, Security, AEM as a Cloud Service, Enterprise Java, Design Patterns, System Design, Technical Leadership, Production Support, Interview Guide, Case Studies, Engineering Checklists, and Reference Library have substantive content merged and their required CI workflows passed; final editorial and live publication verification remain pending. Release metadata is still being reconciled against repository evidence.
 
 - [x] Understanding AEM Internals handbook
 - [ ] Editorial review model and authoritative source policy
@@ -106,8 +111,8 @@ Status note: Introduction and Learning Roadmap are complete. AEM Core, Dispatche
 
 ## Phase 4 — Leadership and Public Readiness
 
-- [ ] Technical-leadership practices and reviewed case studies
-- [ ] Interview handbook and reference material
+- [x] Technical-leadership chapter merged; publication verification pending
+- [x] Case studies, interview guide, checklists, and reference library merged; publication verification pending
 - [ ] Versioned v1.0 release and community maintainer program
 
 ## Proposal Process

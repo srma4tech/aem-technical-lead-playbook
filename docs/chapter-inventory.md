@@ -34,6 +34,11 @@ This inventory was compiled from the current `main` branch file tree on 2026-10-
 - **Design Patterns** — substantive engineering chapter merged in PR #48. Covers context-driven pattern selection, Strategy, Adapter, Decorator, Factory, Builder, Template Method, Observer, AEM-specific patterns, anti-patterns, and review criteria. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **System Design** — substantive engineering chapter merged in PR #50. Covers requirements, workload modelling, boundaries, communication patterns, data ownership, caching, resilience, security, scaling, observability, rollout, and ADRs. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 - **Technical Leadership** — substantive engineering chapter merged in PR #51. Covers outcome framing, decision quality, delivery risk, delegation, code review, stakeholder communication, incident leadership, mentoring, and sustainable engineering. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Production Support** — substantive engineering chapter merged in PR #53. Covers incident triage, evidence, layered diagnosis, safe mitigation, AEM-specific troubleshooting, recovery, and post-incident learning. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Interview Guide** — substantive practice guide merged in PR #54. Covers AEM, Java, architecture, system design, leadership, scenarios, and self-assessment. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Case Studies** — four illustrative, explicitly non-customer-specific scenarios merged in PR #55. Covers stale AEM content, dependency saturation, AEMaaCS migration, and architecture decisions. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Engineering Checklists** — substantive checklist library merged in PR #56, covering change readiness, code review, AEM, Dispatcher, performance, security, integrations, releases, incidents, and documentation. Verify the live site and complete the editorial/source audit before marking the milestone complete.
+- **Reference Library** — curated authoritative source index merged in PR #57 for AEM, Java, architecture, reliability, security, and release governance. Verify the live site and complete the editorial/source audit before marking the milestone complete.
 
 ### Scaffold-only chapter directories
 
@@ -71,8 +76,8 @@ A chapter is not complete merely because its README exists. The author and revie
 3. **Dispatcher:** build on request lifecycle and delivery boundaries.
 4. **Performance and Security:** substantive content for both chapters is merged; complete their publication and editorial review.
 5. **AEM as a Cloud Service:** substantive content is merged; complete publication review and verify the live page.
-6. **Enterprise practice:** Enterprise Java, Design Patterns, System Design, and Production Support.
-7. **Leadership and learner tools:** Technical Leadership, Checklists, Interview Guide, Case Studies, and Reference.
+6. **Enterprise practice:** Enterprise Java, Design Patterns, System Design, and Production Support content is merged; complete editorial and live-site verification.
+7. **Leadership and learner tools:** Technical Leadership, Checklists, Interview Guide, Case Studies, and Reference content is merged; complete editorial and live-site verification.
 8. **Public readiness:** technical/editorial audit, accessibility, navigation, release evidence, and v1.0 acceptance.
 
 ## Release metadata discrepancy
