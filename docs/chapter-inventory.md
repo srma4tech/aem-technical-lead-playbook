@@ -14,7 +14,7 @@ A chapter can be marked Published only after meeting the [definition of done](#c
 
 ## Observed inventory
 
-This inventory was compiled from the current `main` branch file tree on 2026-10-23. File presence and approximate byte sizes were inspected; this is a structural baseline, not a full technical correctness review of every published page.
+This inventory was refreshed from the current `main` branch file tree on 2026-10-24. File presence and approximate byte sizes were inspected; this is a structural baseline, not a full technical correctness review of every published page.
 
 ### Published or curated
 
