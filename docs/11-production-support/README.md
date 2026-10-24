@@ -20,6 +20,7 @@ This chapter is for engineers, technical leads, and support teams operating AEM 
 A service is not production-ready if nobody knows who owns it, how to detect failure, or how to restore it.
 
 For every important service or integration, define:
+
 - primary and secondary ownership or escalation route;
 - user-facing service expectations and critical journeys;
 - dashboards and alerts;
@@ -36,6 +37,7 @@ A runbook should be actionable during stress. It needs the symptom, impact check
 Start by establishing what users or business operations are affected. A single error log may be noise; a small latency increase on a checkout path may be severe.
 
 Ask:
+
 - Which user journeys or locales are affected?
 - Is the issue global, regional, tenant-specific, or limited to one content path?
 - When did it begin, and what changed near that time?
@@ -50,6 +52,7 @@ Use the organization's severity model. If none exists, define one based on user 
 Create a shared incident timeline with timestamps and time zone, observations, actions, and results. Separate facts from hypotheses.
 
 Useful evidence includes:
+
 - request IDs and correlation IDs;
 - latency percentiles, traffic, error rate, and saturation;
 - affected URL patterns or API operations, sanitized as needed;
@@ -93,6 +96,7 @@ Compare the incident start time with recent releases, configuration changes, con
 The immediate objective is to reduce user impact without creating a larger failure.
 
 Possible mitigations include:
+
 - rollback or disable a recent change;
 - stop or throttle a noncritical background workload;
 - restore a known-good configuration;
@@ -149,6 +153,7 @@ AEM 6.5 and AEM as a Cloud Service have different deployment and operational mod
 ## 7. Communicate during an incident
 
 A useful update states:
+
 - current impact and affected scope;
 - what is confirmed;
 - what is being investigated;
@@ -163,6 +168,7 @@ Do not promise a restoration time without evidence. Give a best current estimate
 ## 8. Recovery and closure
 
 Before declaring recovery:
+
 - verify the affected user journeys;
 - confirm error and latency signals return to an acceptable range;
 - verify data integrity and reconcile missed or duplicated work;
@@ -178,6 +184,7 @@ Close an incident when the service is stable and ownership of remaining work is 
 A useful review reconstructs what happened and how the system's design, signals, and processes shaped the outcome. Avoid hindsight bias: decisions should be evaluated against information available at the time.
 
 Cover:
+
 1. Impact and duration.
 2. Timeline of detection, diagnosis, mitigation, and recovery.
 3. Trigger and contributing conditions, distinguishing confirmed cause from remaining hypotheses.
