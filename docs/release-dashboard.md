@@ -22,13 +22,13 @@ The release audit on 2026-10-24 found only `v0.1.1` and `v0.2.0` Git tags, both 
 
 ### Planned next releases
 
-- v0.4 — Dispatcher: substantive content merged; publication/editorial verification pending
-- v0.5 — Performance: substantive content merged; publication/editorial verification pending
-- v0.6 — Security: substantive content merged; publication/editorial verification pending
-- v0.7 — AEM as a Cloud Service: substantive content merged; publication/editorial verification pending
-- v0.8 — Enterprise Java: substantive content merged; publication/editorial verification pending
-- v0.9 — Technical Leadership: substantive content merged; publication/editorial verification pending
-- v1.0 — Public release: full editorial audit, release evidence, and deployment verification required
+- v0.4 — Dispatcher: published to Pages; final editorial/source audit pending
+- v0.5 — Performance: published to Pages; final editorial/source audit pending
+- v0.6 — Security: published to Pages; final editorial/source audit pending
+- v0.7 — AEM as a Cloud Service: published to Pages; final editorial/source audit pending
+- v0.8 — Enterprise Java: published to Pages; final editorial/source audit pending
+- v0.9 — Technical Leadership: published to Pages; final editorial/source audit pending
+- v1.0 — Public release: full editorial/source audit, final browser smoke checks, canonical tag/release creation, and deployment verification required
 
 ## Learning progress
 
