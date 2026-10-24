@@ -6,7 +6,7 @@ This dashboard is the central status surface for the AEM Technical Lead Playbook
 ## Repository Health
 
 !!! warning "Release evidence pending"
-The last documented changelog version is `v0.3.0`, while this dashboard previously recorded `v0.4.0`. Canonical Git tag and GitHub Release evidence still needs verification. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
+The 2026-10-24 audit found only `v0.1.1` and `v0.2.0` Git tags, both pointing to the same commit (`c78d41c1ddf7038034a5e99b35f0aac72a508217`), and no GitHub Releases. The changelog's `v0.3.0` and former dashboard's `v0.4.0` claims are not backed by matching release records. Do not use a percentage estimate as a completion claim; chapter status is tracked in the inventory and requires editorial and live-site evidence.
 
 The repository is evolving from a strong documentation foundation into an engineering education platform with clearer delivery signals, role-based progression, and production-readiness language.
 
@@ -24,9 +24,10 @@ The repository is evolving from a strong documentation foundation into an engine
 
 ## Release Evidence
 
-- Last documented changelog version: `v0.3.0`.
-- Canonical Git tag and GitHub Release: verification pending.
-- No newer release version is declared in this dashboard until tag/release evidence is confirmed.
+- Last documented changelog entry: `v0.3.0` (not backed by a matching Git tag or GitHub Release).
+- Existing Git tags: `v0.1.1` and `v0.2.0`, both pointing to the same commit.
+- GitHub Releases: none found.
+- Canonical current release: not declared until release boundary, tag, and deployment evidence are reconciled.
 - Current chapter-level state: substantive content is merged across the primary learning paths; final editorial review, strict site build, and live-page verification remain required.
 
 ## Learning Progress
